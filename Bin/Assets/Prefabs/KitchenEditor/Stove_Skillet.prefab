@@ -1,0 +1,227 @@
+{
+    "Data": {
+        "Name": "Stove_Skillet",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -6.5,
+                0.0,
+                -3.5
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Skillet",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.5,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            180.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Steam",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Particle System",
+                                        "Emitters": [
+                                            "FoodSteam"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Smoke",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Particle System",
+                                        "Emitters": [
+                                            "FoodSmoke"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "CookTimer",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "CookTimer",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    1.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    -45.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    1.0,
+                                                    1.0,
+                                                    0.20000000298023224
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "Model Instance",
+                                                    "Version": 6,
+                                                    "Model": "Plane",
+                                                    "Materials": [
+                                                        "CookTimerMat"
+                                                    ],
+                                                    "UsedForNav": false,
+                                                    "Renderer": 1,
+                                                    "Material Instance": true,
+                                                    "CastShadows": false,
+                                                    "InstanceCount": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Prefab": "CookTimer"
+                            }
+                        ]
+                    },
+                    "Prefab": "Skillet"
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "stove_mesh",
+                "Materials": [
+                    "Stove_mat",
+                    "Stove_mat",
+                    "Stove_mat",
+                    "Stove_mat",
+                    "Stove_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Stove"
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            }
+        ]
+    }
+}

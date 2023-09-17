@@ -1,0 +1,44 @@
+{
+    "Version": 8,
+    "Emissive": 0.7400000095367432,
+    "Color": {
+        "r": 0.0,
+        "g": 0.8823530673980713,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "Sheesh_GradientNoise_C",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "PortalSuckInSnurrPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "PortalSuckInSnurrVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 10.0,
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.36000001430511475,
+    "c5": 0.8399999737739563,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 3,
+    "RasterizerState": 0,
+    "Custom Texture Count": 1,
+    "Texture Ids": [
+        11
+    ],
+    "Texture Names": [
+        "T_default_C"
+    ]
+}

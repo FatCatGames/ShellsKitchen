@@ -1,0 +1,89 @@
+{
+    "Data": {
+        "Name": "Counter_Fishmarket_Plate",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                8.380640029907227,
+                21.191665649414063,
+                35.168235778808594
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Plate",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.5,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Prefab": "Plate"
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "countertopTile_Fishmarket_mesh",
+                "Materials": [
+                    "countertop_fishmarket_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    0.5,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Counter"
+            }
+        ]
+    }
+}

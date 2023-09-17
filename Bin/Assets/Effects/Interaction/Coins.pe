@@ -1,0 +1,165 @@
+{
+    "Version": 13,
+    "Emission Data": {
+        "WorldSpace": true,
+        "Looping": false,
+        "Max particles": 100,
+        "Duration": 1.0,
+        "Delay": 0.0,
+        "Size": {
+            "min": 2.0,
+            "max": 3.0,
+            "evaluationType": "random"
+        },
+        "Speed": {
+            "min": 1.0,
+            "max": 6.0,
+            "evaluationType": "random"
+        },
+        "Lifetime": {
+            "min": 1.0,
+            "max": 2.0,
+            "evaluationType": "random"
+        },
+        "Rotation": {
+            "min": 0.0,
+            "max": 360.0,
+            "evaluationType": "random"
+        },
+        "Time between emissions": {
+            "default": 2.0,
+            "evaluationType": "default"
+        },
+        "Particles per emission": {
+            "default": 25,
+            "evaluationType": "default"
+        },
+        "Spawn delay": {
+            "default": 0.0,
+            "evaluationType": "default"
+        },
+        "Start color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+        },
+        "Use gravity": true,
+        "Gravity modifier": 0.30000001192092896
+    },
+    "Shape Data": {
+        "Shape": 0,
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "SizeX": 1.0,
+        "SizeY": 0.0,
+        "SizeZ": 1.0
+    },
+    "Over lifetime": {
+        "Size": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": false
+        },
+        "Speed": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": false
+        },
+        "Rotation": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "enabled": false
+        },
+        "Color": {
+            "enabled": true,
+            "Gradient": [
+                {
+                    "Color": {
+                        "r": 4.015686511993408,
+                        "g": 4.015686511993408,
+                        "b": 4.015686511993408,
+                        "a": 1.0
+                    },
+                    "pos": 0
+                }
+            ]
+        },
+        "Velocity": {
+            "enabled": false,
+            "X": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Y": [
+                {
+                    "x": 0.0,
+                    "y": 0.25
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Z": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Strength": 10.0
+        }
+    },
+    "Noise Data": {
+        "Enabled": false,
+        "X": true,
+        "Y": true,
+        "Z": true,
+        "Strength": 0.10000000149011612,
+        "Freq": 1.0
+    },
+    "Graphics": {
+        "Blend state": 1,
+        "Type": 1,
+        "Columns": 8,
+        "Rows": 8,
+        "Framerate": 128,
+        "Loop": true,
+        "Texture": "StupidCoin_C"
+    }
+}

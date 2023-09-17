@@ -1,0 +1,443 @@
+{
+    "Data": {
+        "Name": "Pause Menu",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Resume",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.37724727392196655,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            256.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Pause menu Skylt",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        -0.01223890669643879,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        2.0,
+                                        16.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "PauseBackground",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UIErodingMenuPS",
+                                        "Layer": 9,
+                                        "Instance Shader": true,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Resume",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 4,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Restart",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.13015097379684448,
+                            0.14579521119594574,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            512.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "ResetLevel",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 14,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Settings",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.07007791101932526,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            256.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Settings",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 1,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Controls",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.3019198179244995,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            256.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "P1 Controls Image",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        -0.0020364862866699696,
+                                        0.003675568383187056,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        2.0,
+                                        16.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "ControlsP1Image",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 10,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "P2 Controls Image",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0020351563580334187,
+                                        0.003700900124385953,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        2.0,
+                                        16.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "ControlsP2Image",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 10,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Controls",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 13,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Main Menu",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.13270574808120728,
+                            -0.5337526798248291,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            512.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "MainMenu",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 10,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Quit",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.7600011229515076,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            256.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Quit",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 3,
+                            "PlayerID": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Pause Menu Component"
+            }
+        ]
+    }
+}

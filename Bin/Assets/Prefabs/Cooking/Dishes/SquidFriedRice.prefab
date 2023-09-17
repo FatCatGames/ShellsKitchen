@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "squid_fried_rice",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.996509552001953,
+                0.019023239612579346,
+                4.7858428955078125
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "squid_fried_rice",
+                "Materials": [
+                    "rice_fried_mat",
+                    "squid_fried_rice_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

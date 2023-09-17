@@ -1,0 +1,107 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Selected",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5105,
+                    "targetPin": "In",
+                    "targetUID": 5116,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5116,
+                    "targetPin": "In",
+                    "targetUID": 5094,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Selected",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5094,
+                    "targetPin": "In",
+                    "targetUID": 5105,
+                    "transTime": 0.20000000298023224
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 5094,
+                    "animation": "player1_mainMenuIdle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 208.0,
+                    "y": 171.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5105,
+                    "animation": "player1_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5116,
+                    "animation": "player1_mainMenuSelected_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 123.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "player1_sk",
+    "variables": [
+        {
+            "name": "Selected",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        }
+    ]
+}

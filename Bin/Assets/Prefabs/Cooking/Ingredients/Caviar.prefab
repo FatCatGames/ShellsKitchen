@@ -1,0 +1,113 @@
+{
+    "Data": {
+        "Name": "Caviar",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                12.308565139770508,
+                11.407918930053713,
+                3.962256669998169
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Sprite",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            50.0,
+                            50.0,
+                            50.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Icon_Caviar",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 0,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "caviar_mesh",
+                "Materials": [
+                    "Caviar_mat",
+                    "CaviarOutline_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 5,
+                "Trigger": false,
+                "Size": [
+                    0.4000000059604645,
+                    0.30000001192092896,
+                    0.4000000059604645
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": true
+            },
+            {
+                "ComponentType": "Ingredient",
+                "Type": 5,
+                "Boilable": false,
+                "Friable": false,
+                "Choppable": false
+            },
+            {
+                "ComponentType": "Ingredient Icon"
+            }
+        ]
+    }
+}

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{6B7DD516-5735-1764-C03C-F0BFAC13B254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Audio">
+      <UniqueIdentifier>{AC2F53F1-9828-7243-C15A-57C8ADB2514F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{836BFE1E-EF81-FCB4-38F9-87D6A44ECD3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Environment">
+      <UniqueIdentifier>{EF6CA328-DB66-CC7A-C4D3-628BB06C32E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GamePlay">
+      <UniqueIdentifier>{AA423C89-16A4-1997-9F11-60490B725056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Interactables">
+      <UniqueIdentifier>{5BAC75D7-47D1-C457-701C-AAE75CA0C375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Interactables\Holdables">
+      <UniqueIdentifier>{3834D57A-2470-D8E4-8D82-F0DB79DD80FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Interactables\Surfaces">
+      <UniqueIdentifier>{860940D0-F277-954F-3B61-504FA70E8BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\LevelEditorComponent">
+      <UniqueIdentifier>{EC81AD58-5865-BC98-6168-EAD4CDCA82E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\LevelSelect">
+      <UniqueIdentifier>{92ABF4E8-7EA5-1D3B-6712-B44B53AB83A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MainMenu">
+      <UniqueIdentifier>{B4B8130A-201A-F117-A987-37CA15E827D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Player">
+      <UniqueIdentifier>{2748123E-935E-10D4-DCD5-9BF5482BE15B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Scoreboard">
+      <UniqueIdentifier>{BEBA56D4-2A27-12CF-F31A-AA2C5F463437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{B34CFEBD-9F19-59C9-C832-4771B45E8E57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{6D615D47-5919-9F94-C220-78F0AEF73985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{EFAC8DF2-5B8C-0C8E-64A4-9764D00273EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Effects">
+      <UniqueIdentifier>{9EAB8CA0-0A37-FA64-1348-7D597F525665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Environment">
+      <UniqueIdentifier>{73021BB8-DF63-F8C5-68D1-3E78D4312F85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Food">
+      <UniqueIdentifier>{66E3F4FA-5246-849F-FBCB-BC55E70D5022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Interaction">
+      <UniqueIdentifier>{5E432212-CAA4-FF1F-5312-46D2BF7236DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI">
+      <UniqueIdentifier>{BC0D4262-A8C5-83AF-11CD-5C0BFDA31EA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\CookingProgressBar">
+      <UniqueIdentifier>{9F7D065F-0B96-ED88-D442-7D22401A8222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\Counter">
+      <UniqueIdentifier>{EB2266F2-D706-2748-4067-219B2C6A11CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\ErodingMenu">
+      <UniqueIdentifier>{C8804214-B47A-6B66-9DE7-01778980D1D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\Order">
+      <UniqueIdentifier>{27AA143C-13A3-338E-3CD5-1813282D139A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\Points">
+      <UniqueIdentifier>{08B3CBC0-74C9-C956-BD40-557829969ADE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\ProgressBar">
+      <UniqueIdentifier>{35E4BE34-21DE-E786-0A4B-7E97F6E34DF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\UI\Timer">
+      <UniqueIdentifier>{8C5B6A3C-7854-898E-A186-6E138DDE689A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientController.h" />
+    <ClInclude Include="Components\Audio\AudioPlayer.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Audio\LevelSelectAudioPlayer.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Audio\TutorialBoardAudioPlayer.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\BobSpinComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Camera\DistanceBasedZoomCamera.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Camera\RayPickerComponent.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\AutoFoam.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\CloudSpawner.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\Customer.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\LineupCustomer.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\LineupCustomers.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\MovingInteractable.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\MovingInteractableItems.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\RippleSpawner.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\Shark.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\Sharkfin.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\Teleporter.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\WalkingCustomer.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Environment\WalkingCustomers.h">
+      <Filter>Components\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ExplodeComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\BurnIndicator.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\CoinCounterComponent.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\FloatingScore.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\IngredientIcon.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\LevelCoinCounter.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\LevelTimer.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\OrderUI.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\SelfDestroy.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\TrashcanIcon.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GamePlay\TutorialBoard.h">
+      <Filter>Components\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Holdables\HoldableItem.h">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Holdables\Ingredient.h">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Holdables\Plate.h">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Holdables\Pot.h">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Holdables\Skillet.h">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Interactable.h">
+      <Filter>Components\Interactables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\Counter.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\CuttingBoard.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\DeliveryDesk.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\IngredientContainer.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\InteractableSurface.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\PlateHolder.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Surfaces\Stove.h">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Interactables\Trashcan.h">
+      <Filter>Components\Interactables</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelEditorComponent\KitchenWindowDummyComponent.h">
+      <Filter>Components\LevelEditorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelNumber.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelSelectCamera.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelSelectDataHandler.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelSelectLevel.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelSelectPlayer.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\LevelSelect\LevelSelectPreview.h">
+      <Filter>Components\LevelSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\CountdownComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\CounterComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\InteractableUIObjectComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\LevelCounterComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\MenuButton.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\NumberOfPlayersComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\P1CustomizeMenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\P1MenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\P2CustomizeMenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\P2MenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\PauseMenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\PlayerModelComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MainMenu\SettingsMenuComponent.h">
+      <Filter>Components\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\MovingPlatform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player\Player.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player\PlayerData.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Player\PlayerPlaceholder.h">
+      <Filter>Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ProgressBar.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Scoreboard\Scoreboard.h">
+      <Filter>Components\Scoreboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.pch.h" />
+    <ClInclude Include="IngredientTypes.h" />
+    <ClInclude Include="LookAtCamera.h" />
+    <ClInclude Include="Managers\CurrentLevelManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\GameManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\LevelSelectManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\NetMessageHandler.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\StampManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\UIManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkComponent.h" />
+    <ClInclude Include="Networking\NetworkGameCommands.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking\NetworkGameManager.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderHandler.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="Shaders\Environment\FoamLinePS.h">
+      <Filter>Shaders\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Interaction\HighlightPS.h">
+      <Filter>Shaders\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Interaction\ProgressBarPS.h">
+      <Filter>Shaders\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\CookingProgressBar\UICookingProgressBarPS.h">
+      <Filter>Shaders\UI\CookingProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\Counter\UICounterPS.h">
+      <Filter>Shaders\UI\Counter</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\ErodingMenu\UIErodingMenuPS.h">
+      <Filter>Shaders\UI\ErodingMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\Order\UIOrderPS.h">
+      <Filter>Shaders\UI\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\Points\UIPointsPS.h">
+      <Filter>Shaders\UI\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\ProgressBar\UIProgressBarPS.h">
+      <Filter>Shaders\UI\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\UI\Timer\UITimerPS.h">
+      <Filter>Shaders\UI\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\WaterStylizedPS.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientController.cpp" />
+    <ClCompile Include="Components\Audio\AudioPlayer.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Audio\LevelSelectAudioPlayer.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Audio\TutorialBoardAudioPlayer.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\BobSpinComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Camera\DistanceBasedZoomCamera.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Camera\RayPickerComponent.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\AutoFoam.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\CloudSpawner.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\Customer.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\LineupCustomer.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\LineupCustomers.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\MovingInteractable.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\MovingInteractableItems.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\RippleSpawner.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\Shark.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\Sharkfin.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\Teleporter.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\WalkingCustomer.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Environment\WalkingCustomers.cpp">
+      <Filter>Components\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ExplodeComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\BurnIndicator.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\CoinCounterComponent.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\FloatingScore.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\IngredientIcon.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\LevelCoinCounter.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\LevelTimer.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\OrderUI.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\SelfDestroy.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\TrashcanIcon.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\GamePlay\TutorialBoard.cpp">
+      <Filter>Components\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Holdables\HoldableItem.cpp">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Holdables\Ingredient.cpp">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Holdables\Plate.cpp">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Holdables\Pot.cpp">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Holdables\Skillet.cpp">
+      <Filter>Components\Interactables\Holdables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Interactable.cpp">
+      <Filter>Components\Interactables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\Counter.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\CuttingBoard.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\DeliveryDesk.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\IngredientContainer.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\InteractableSurface.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\PlateHolder.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Surfaces\Stove.cpp">
+      <Filter>Components\Interactables\Surfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Interactables\Trashcan.cpp">
+      <Filter>Components\Interactables</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelEditorComponent\KitchenWindowDummyComponent.cpp">
+      <Filter>Components\LevelEditorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelNumber.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelSelectCamera.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelSelectDataHandler.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelSelectLevel.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelSelectPlayer.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\LevelSelect\LevelSelectPreview.cpp">
+      <Filter>Components\LevelSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\CountdownComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\CounterComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\InteractableUIObjectComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\LevelCounterComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\MenuButton.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\NumberOfPlayersComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\P1CustomizeMenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\P1MenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\P2CustomizeMenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\P2MenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\PauseMenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\PlayerModelComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MainMenu\SettingsMenuComponent.cpp">
+      <Filter>Components\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\MovingPlatform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Player\Player.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Player\PlayerData.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Player\PlayerPlaceholder.cpp">
+      <Filter>Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ProgressBar.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Scoreboard\Scoreboard.cpp">
+      <Filter>Components\Scoreboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.pch.cpp" />
+    <ClCompile Include="LookAtCamera.cpp" />
+    <ClCompile Include="Managers\CurrentLevelManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\GameManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\LevelSelectManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\NetMessageHandler.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\StampManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\UIManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkComponent.cpp" />
+    <ClCompile Include="Networking\NetworkGameManager.cpp">
+      <Filter>Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderHandler.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="Shaders\Interaction\HighlightPS.cpp">
+      <Filter>Shaders\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Interaction\ProgressBarPS.cpp">
+      <Filter>Shaders\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\CookingProgressBar\UICookingProgressBarPS.cpp">
+      <Filter>Shaders\UI\CookingProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\Counter\UICounterPS.cpp">
+      <Filter>Shaders\UI\Counter</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\ErodingMenu\UIErodingMenuPS.cpp">
+      <Filter>Shaders\UI\ErodingMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\Order\UIOrderPS.cpp">
+      <Filter>Shaders\UI\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\Points\UIPointsPS.cpp">
+      <Filter>Shaders\UI\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\ProgressBar\UIProgressBarPS.cpp">
+      <Filter>Shaders\UI\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\UI\Timer\UITimerPS.cpp">
+      <Filter>Shaders\UI\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\WaterStylizedPS.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\Effects\BoatWavesPS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\BoatWavesVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\HatMovementVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\HatPropellerVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\PortalSuckInSnurrPS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\PortalSuckInSnurrVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\TAresearchPS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\TeleportPS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\TeleportVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\WaterSplashRingGS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\WaterSplashRingPS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effects\WaterSplashRingVS.hlsl">
+      <Filter>Shaders\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\AutoFoamPS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\BirdsGS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\CloudPS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\CloudVS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\FlagPoleWindVS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\FoamLinePS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\MarketstandWindVS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\PalmtreeWindVS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Environment\WindVS.hlsl">
+      <Filter>Shaders\Environment</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Food\FoodPS.hlsl">
+      <Filter>Shaders\Food</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Interaction\ProgressBarPS.hlsl">
+      <Filter>Shaders\Interaction</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\CookingProgressBar\UICookingProgressBarPS.hlsl">
+      <Filter>Shaders\UI\CookingProgressBar</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\Counter\UICounterPS.hlsl">
+      <Filter>Shaders\UI\Counter</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\ErodingMenu\UIErodingMenuPS.hlsl">
+      <Filter>Shaders\UI\ErodingMenu</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\Order\UIOrderPS.hlsl">
+      <Filter>Shaders\UI\Order</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\Points\UIPointsPS.hlsl">
+      <Filter>Shaders\UI\Points</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\ProgressBar\UIProgressBarPS.hlsl">
+      <Filter>Shaders\UI\ProgressBar</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI\Timer\UITimerPS.hlsl">
+      <Filter>Shaders\UI\Timer</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

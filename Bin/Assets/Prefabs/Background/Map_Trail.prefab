@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "Map_Trail",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                163.9276580810547,
+                0.7910748720169067,
+                71.32195281982422
+            ],
+            "Rot": [
+                0.0,
+                59.18899917602539,
+                0.0
+            ],
+            "Size": [
+                0.6700000166893005,
+                0.6700000166893005,
+                0.6700000166893005
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "map_trail_mesh",
+                "Materials": [
+                    "Map_trail_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 5
+            }
+        ]
+    }
+}

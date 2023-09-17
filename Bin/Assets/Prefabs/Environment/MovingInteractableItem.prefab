@@ -1,0 +1,138 @@
+{
+    "Data": {
+        "Name": "MovingInteractableItem",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.801395058631897,
+                1.772502899169922,
+                1.1510052680969238
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Sprite",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            50.0,
+                            50.0,
+                            50.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Icon_Fish",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 0,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "fishAI_sk",
+                "Materials": [
+                    "Fish_AI"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 3,
+                "Trigger": false,
+                "Size": [
+                    0.75,
+                    0.5,
+                    0.5
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": true
+            },
+            {
+                "ComponentType": "Moving Interactable Items",
+                "Type": 0,
+                "Boilable": false,
+                "Friable": true,
+                "Choppable": true
+            },
+            {
+                "ComponentType": "Ingredient Icon",
+                "myDeactivateInAwake": false
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": true,
+                "Mass": 1.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": true,
+                "Lock Rotation Y": true,
+                "Lock Rotation Z": true,
+                "Dampening": 0.0
+            },
+            {
+                "ComponentType": "Vertex Animator",
+                "Version": 1,
+                "VATS": [
+                    {
+                        "ID": 0,
+                        "Name": "Undefined",
+                        "TextureName": "fishAI_flopping_anim",
+                        "ShouldLoop": false
+                    }
+                ]
+            }
+        ]
+    }
+}

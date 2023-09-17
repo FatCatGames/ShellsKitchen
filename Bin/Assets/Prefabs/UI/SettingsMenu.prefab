@@ -1,0 +1,392 @@
+{
+    "Data": {
+        "Name": "Settings Menu",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.2354560494422913,
+                0.4805663228034973,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Change Music button",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            300.0,
+                            25.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Music Volume Sprite",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        -0.002766495570540428,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.3333333730697632,
+                                        2.064516067504883,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "Volume_5",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 1,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Settings Skylt",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        -2.3283064365386963e-10,
+                                        -0.013925512321293354,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.7066667079925537,
+                                        20.479999542236328,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "BackgroundSettings",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UIErodingMenuPS",
+                                        "Layer": 0,
+                                        "Instance Shader": true,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "MusicVolume",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 1,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 6,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Change SFX Button",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.23366336524486545,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            300.0,
+                            25.600000381469727,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "SFX Volume Sprite",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        -0.0026984778232872486,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.3333333730697632,
+                                        2.064516067504883,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "Volume_5",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 1,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "SFXVolume",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 1,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 7,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Change Resolution Button",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.4560689926147461,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            300.0,
+                            25.600000381469727,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Current Resolution Sprite",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        -0.0025194271001964808,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.6666666865348816,
+                                        1.25,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "1080",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 1,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Resolution",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 1,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 8,
+                            "PlayerID": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Close Settings Button",
+                    "Active": false,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.024210631847381592,
+                            -0.7162862420082092,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            256.0,
+                            64.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "CloseSettings",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 1,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        },
+                        {
+                            "ComponentType": "Menu Button",
+                            "MenuButtonID": 9,
+                            "PlayerID": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Settings Menu Component"
+            }
+        ]
+    }
+}

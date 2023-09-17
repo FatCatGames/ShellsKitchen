@@ -1,0 +1,75 @@
+{
+    "Data": {
+        "Name": "TutorialBoard",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.324660062789917,
+                7.307425498962402,
+                -6.2113823890686035
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.350000023841858,
+                2.299999952316284,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Sprite",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1600.0,
+                            900.0,
+                            900.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Square-Default",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 10,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Tutorial Board"
+            }
+        ]
+    }
+}

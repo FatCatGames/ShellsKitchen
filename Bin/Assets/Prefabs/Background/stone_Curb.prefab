@@ -1,0 +1,48 @@
+{
+    "Data": {
+        "Name": "stone_Curb_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -15.0,
+                0.0,
+                -11.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "stone_Curb_mesh",
+                "Materials": [
+                    "stoneCurb_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

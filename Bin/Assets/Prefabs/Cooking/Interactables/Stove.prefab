@@ -1,0 +1,62 @@
+{
+    "Data": {
+        "Name": "Stove",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -2.0,
+                0.0,
+                2.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "stove_mesh",
+                "Materials": [
+                    "Stove_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Stove"
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            }
+        ]
+    }
+}

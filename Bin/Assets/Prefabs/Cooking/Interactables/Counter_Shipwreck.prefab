@@ -1,0 +1,62 @@
+{
+    "Data": {
+        "Name": "Counter_Shipwreck",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                9.479206085205078,
+                21.11805534362793,
+                39.61662292480469
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "countertopTile_Shipwreck_mesh",
+                "Materials": [
+                    "countertop_Shipwreck"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    0.5,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Counter"
+            }
+        ]
+    }
+}

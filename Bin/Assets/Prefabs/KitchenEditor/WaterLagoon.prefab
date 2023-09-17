@@ -1,0 +1,85 @@
+{
+    "Data": {
+        "Name": "WaterLagoonPlane",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                9.420890808105469,
+                -5.0,
+                -34.90413284301758
+            ],
+            "Rot": [
+                0.0,
+                1.100000023841858,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "SeaFloor",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -61.80899810791016,
+                            -0.5,
+                            37.91899871826172
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Model Instance",
+                            "Version": 7,
+                            "Model": "PlaneSubdivided2",
+                            "Materials": [
+                                "sandDunes_mat"
+                            ],
+                            "UsedForNav": false,
+                            "Renderer": 1,
+                            "Material Instance": false,
+                            "CastShadows": false,
+                            "InstanceCount": 0,
+                            "Layer": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "PlaneSubdivided2",
+                "Materials": [
+                    "WaterLagoon"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 9
+            }
+        ]
+    }
+}

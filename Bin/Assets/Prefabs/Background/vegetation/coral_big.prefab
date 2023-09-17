@@ -1,0 +1,48 @@
+{
+    "Data": {
+        "Name": "coral_big_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -12.397385597229004,
+                -0.7146199941635132,
+                -0.8998380899429321
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "coral_big_mesh",
+                "Materials": [
+                    "coral_big_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,735 @@
+{
+    "GameObjects": [
+        {
+            "Name": "Floor",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.009418070316314697,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    30.0,
+                    0.4000000059604645,
+                    30.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "PlaneSubdivided2",
+                    "Materials": [
+                        "StylizedWaterMaterial"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 1,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Light",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rot": [
+                    90.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 3,
+                    "Shadows": 0,
+                    "Intensity": 2.200000047683716,
+                    "Range": 10.0,
+                    "Tex": "ShellskitchenCubemap_1_cube_specular",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stove",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.5,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "Black"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Stove"
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.2667638659477234,
+                    0.9837726950645447,
+                    -1.9942994117736816
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    2.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "Blue"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Player",
+                    "Version": 0,
+                    "Id": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": true,
+                    "Size": [
+                        2.5,
+                        1.0,
+                        2.5
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ComponentType": "Rigid Body",
+                    "Use Gravity": false,
+                    "Mass": 1.0,
+                    "Lock Translation X": false,
+                    "Lock Translation Y": false,
+                    "Lock Translation Z": false,
+                    "Lock Rotation X": false,
+                    "Lock Rotation Y": false,
+                    "Lock Rotation Z": false
+                }
+            ]
+        },
+        {
+            "Name": "Camera",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    8.800000190734863,
+                    -8.699999809265137
+                ],
+                "Rot": [
+                    45.900001525878906,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Camera",
+                    "Version": 3,
+                    "FoV": 90.0,
+                    "NearPlane": 0.10000000149011612,
+                    "FarPlane": 1000.0
+                }
+            ]
+        },
+        {
+            "Name": "Floor",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    -1.523851990699768,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    66.9000015258789,
+                    0.8919999599456787,
+                    66.9000015258789
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Plane",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "PointLight",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -8.862506866455078,
+                    3.147139310836792,
+                    -2.6350042819976807
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 1,
+                    "Shadows": 0,
+                    "Intensity": 0.0,
+                    "Range": 10.0,
+                    "Tex": "studio_cubemap",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    3.2314743995666504,
+                    1.293154001235962,
+                    1.3068873882293701
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_sphere",
+                    "Materials": [
+                        "Chrome"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Directional Light",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    4.864097595214844,
+                    4.708105087280273,
+                    7.230462551116943
+                ],
+                "Rot": [
+                    -111.45863342285156,
+                    0.0002228546654805541,
+                    179.99981689453125
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 0,
+                    "Shadows": 1,
+                    "Intensity": 2.259999990463257,
+                    "Range": 10.0,
+                    "Tex": "studio_cubemap",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    4.987978458404541,
+                    -1.7359273433685303,
+                    -0.6776562333106995
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cone",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    3.942861557006836,
+                    -3.0773377418518066,
+                    1.1061605215072632
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.9684177041053772,
+                    -2.055654287338257,
+                    1.1061605215072632
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    2.459644317626953,
+                    -2.055654287338257,
+                    -1.7451756000518799
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    5.640700340270996,
+                    -2.0556538105010986,
+                    -0.9950982332229614
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.09218478202819824,
+                    -2.484224796295166,
+                    -1.8229409456253052
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    6.422365188598633,
+                    -2.5112195014953613,
+                    1.8839857578277588
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Unnamed asset",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    3.3871731758117676,
+                    -2.2454357147216797,
+                    3.6235580444335938
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    3.4307003021240234,
+                    3.4307003021240234,
+                    3.4307003021240234
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "LD_cube",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                }
+            ]
+        }
+    ]
+}

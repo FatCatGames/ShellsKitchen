@@ -1,0 +1,51 @@
+{
+    "Data": {
+        "Name": "Mast_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                19.0,
+                0.0,
+                16.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "Mast_mesh",
+                "Materials": [
+                    "Ship_Parts_mat",
+                    "Ship_poles_mat",
+                    "Sail_mat",
+                    "Tiling_Rope_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

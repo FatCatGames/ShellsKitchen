@@ -1,0 +1,1741 @@
+{
+    "Data": {
+        "Name": "Scoreboard",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.4125915765762329,
+                2.7729573249816895,
+                5.885793685913086
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1600.0,
+                900.0,
+                1000.0
+            ],
+            "Children": [
+                {
+                    "Name": "Background",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            -0.0009500000160187484,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.350000023841858,
+                            2.299999952316284,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "ScoreBoard",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 8,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "OrdersDelivered",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0002899999963119626,
+                            -0.00014899999951012433,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": false,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.3499999940395355,
+                                        0.2150000035762787,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Tips",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0002899999963119626,
+                            0.000050999999075429514,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": false,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.3499999940395355,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "OrdersFailed",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0002899999963119626,
+                            -0.000060999998822808266,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.3499999940395355,
+                                        0.11500000208616255,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Minus",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    -0.12600000202655792,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "Minus",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 4,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Total",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0002899999963119626,
+                            0.000048999998398358,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": false,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.3499999940395355,
+                                        -0.10000000149011612,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Bronze",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0003100000030826777,
+                            -0.00009999999747378752,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        -0.3400000035762787,
+                                        0.30000001192092896,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Silver",
+                    "Active": true,
+                    "Opened": false,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.000006000000212225132,
+                            -0.00009999999747378752,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        -0.019999999552965164,
+                                        0.30000001192092896,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Gold",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0003600000054575503,
+                            -0.00009999999747378752,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0013000000035390258,
+                            0.0017999999690800903,
+                            0.0010000000474974513
+                        ],
+                        "Children": [
+                            {
+                                "Name": "CounterTest",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.33000001311302185,
+                                        0.30000001192092896,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        0.10000000149011612,
+                                        0.10000000149011612,
+                                        0.10000000149011612
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "Sprite 1",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 2",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.12605911493301392,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 3",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.2523268163204193,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Sprite 4",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.374845027923584,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    128.0,
+                                                    256.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "0",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 9,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Counter Component"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": []
+                },
+                {
+                    "Name": "Stars",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.00010800000018207356,
+                            0.0006300000241026282,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.699999988079071,
+                            0.15000000596046448,
+                            0.10000000149011612
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Score0",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UISpritePS",
+                            "Layer": 9,
+                            "Instance Shader": false,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Scoreboard"
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "Data": {
+        "Name": "LevelSelectAudioPlayer",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.42046856880188,
+                -1.569181203842163,
+                -2.2406082153320313
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Audio Mono Component",
+                "Active": false,
+                "AmountOfSounds": 2,
+                "Effects": [
+                    "event:/Ambience/Sea Ambience",
+                    "event:/Music/World Map Music"
+                ]
+            },
+            {
+                "ComponentType": "Level Select Audio Player"
+            }
+        ]
+    }
+}

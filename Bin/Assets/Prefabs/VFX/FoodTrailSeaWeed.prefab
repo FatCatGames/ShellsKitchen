@@ -1,0 +1,35 @@
+{
+    "Data": {
+        "Name": "FoodTrailSeaWeed",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                5.001809597015381,
+                3.056877851486206,
+                4.9513325691223145
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "FoodTrailSeaWeed"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "Data": {
+        "Name": "CaviarIngredientBox",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                3.3696346282958984,
+                8.415175437927246,
+                10.492544174194336
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "IngredientBox_Caviar_mesh",
+                "Materials": [
+                    "Caviar_mat",
+                    "CaviarOutline_mat",
+                    "ingredientbox_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 2
+            },
+            {
+                "ComponentType": "Ingredient Container",
+                "Type": 5
+            }
+        ]
+    }
+}

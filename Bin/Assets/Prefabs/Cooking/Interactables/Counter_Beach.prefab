@@ -1,0 +1,62 @@
+{
+    "Data": {
+        "Name": "Counter_Beach",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                6.838284969329834,
+                20.081634521484375,
+                28.410417556762695
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "countertopTile_Beach_mesh",
+                "Materials": [
+                    "countertop_Beach_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    0.5,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Counter"
+            }
+        ]
+    }
+}

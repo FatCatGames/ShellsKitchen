@@ -1,0 +1,196 @@
+{
+    "Version": 13,
+    "Emission Data": {
+        "WorldSpace": true,
+        "Looping": false,
+        "Max particles": 100,
+        "Duration": 1.0,
+        "Delay": 0.0,
+        "Size": {
+            "min": 0.5,
+            "max": 2.0,
+            "evaluationType": "random"
+        },
+        "Speed": {
+            "min": 0.800000011920929,
+            "max": 2.0,
+            "evaluationType": "random"
+        },
+        "Lifetime": {
+            "min": 0.4000000059604645,
+            "max": 0.5,
+            "evaluationType": "random"
+        },
+        "Rotation": {
+            "min": 0.0,
+            "max": 359.0,
+            "evaluationType": "random"
+        },
+        "Time between emissions": {
+            "default": 1.0,
+            "evaluationType": "default"
+        },
+        "Particles per emission": {
+            "default": 10,
+            "evaluationType": "default"
+        },
+        "Spawn delay": {
+            "default": 0.0,
+            "evaluationType": "default"
+        },
+        "Start color": {
+            "r": 1.0,
+            "g": 0.47058820724487305,
+            "b": 0.0,
+            "a": 1.0
+        },
+        "Use gravity": false,
+        "Gravity modifier": 1.0
+    },
+    "Shape Data": {
+        "Shape": 1,
+        "OffsetX": 0.0,
+        "OffsetY": 1.5,
+        "OffsetZ": 0.0,
+        "SizeX": 0.0,
+        "SizeY": 0.0,
+        "SizeZ": 0.0
+    },
+    "Over lifetime": {
+        "Size": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 0.9300000071525574,
+                    "y": 0.6600000262260437
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": true
+        },
+        "Speed": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 0.4699999988079071,
+                    "y": 0.9399999976158142
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": true
+        },
+        "Rotation": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "enabled": false
+        },
+        "Color": {
+            "enabled": true,
+            "Gradient": [
+                {
+                    "Color": {
+                        "r": 17.843137741088867,
+                        "g": 12.129817962646484,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "pos": 0
+                },
+                {
+                    "Color": {
+                        "r": 2.17254900932312,
+                        "g": 1.5846827030181885,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "pos": 24
+                },
+                {
+                    "Color": {
+                        "r": 2.3764705657958984,
+                        "g": 1.6775085926055908,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "pos": 72
+                },
+                {
+                    "Color": {
+                        "r": 1.3921568393707275,
+                        "g": 1.193277359008789,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "pos": 100
+                }
+            ]
+        },
+        "Velocity": {
+            "enabled": false,
+            "X": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Y": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Z": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Strength": 4.0
+        }
+    },
+    "Noise Data": {
+        "Enabled": false,
+        "X": true,
+        "Y": true,
+        "Z": true,
+        "Strength": 0.05000000074505806,
+        "Freq": 1.0
+    },
+    "Graphics": {
+        "Blend state": 1,
+        "Type": 0,
+        "Texture": "aStar"
+    }
+}

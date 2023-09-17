@@ -1,0 +1,182 @@
+{
+    "Version": 13,
+    "Emission Data": {
+        "WorldSpace": true,
+        "Looping": false,
+        "Max particles": 100,
+        "Duration": 0.5,
+        "Delay": 0.0,
+        "Size": {
+            "min": 1.0,
+            "max": 10.0,
+            "evaluationType": "random"
+        },
+        "Speed": {
+            "min": 0.0,
+            "max": 2.0,
+            "evaluationType": "random"
+        },
+        "Lifetime": {
+            "min": 0.5,
+            "max": 1.0,
+            "evaluationType": "random"
+        },
+        "Rotation": {
+            "default": 1.0,
+            "evaluationType": "default"
+        },
+        "Time between emissions": {
+            "default": 2.0,
+            "evaluationType": "default"
+        },
+        "Particles per emission": {
+            "default": 50,
+            "evaluationType": "default"
+        },
+        "Spawn delay": {
+            "default": 0.0010000000474974513,
+            "evaluationType": "default"
+        },
+        "Start color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+        },
+        "Use gravity": false,
+        "Gravity modifier": 0.5
+    },
+    "Shape Data": {
+        "Shape": 1,
+        "OffsetX": 0.0,
+        "OffsetY": 1.0,
+        "OffsetZ": 0.0,
+        "SizeX": 0.0,
+        "SizeY": 0.0,
+        "SizeZ": 0.0
+    },
+    "Over lifetime": {
+        "Size": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": true
+        },
+        "Speed": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.009999999776482582
+                }
+            ],
+            "enabled": true
+        },
+        "Rotation": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "enabled": false
+        },
+        "Color": {
+            "enabled": true,
+            "Gradient": [
+                {
+                    "Color": {
+                        "r": 19.60784339904785,
+                        "g": 19.60784339904785,
+                        "b": 19.60784339904785,
+                        "a": 0.0
+                    },
+                    "pos": 0
+                },
+                {
+                    "Color": {
+                        "r": 7.843137264251709,
+                        "g": 7.843137264251709,
+                        "b": 7.843137264251709,
+                        "a": 0.3490196168422699
+                    },
+                    "pos": 40
+                },
+                {
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "pos": 99
+                }
+            ]
+        },
+        "Velocity": {
+            "enabled": false,
+            "X": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Y": [
+                {
+                    "x": 0.0,
+                    "y": 0.10000000149011612
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.10000000149011612
+                }
+            ],
+            "Z": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Strength": 4.0
+        }
+    },
+    "Noise Data": {
+        "Enabled": true,
+        "X": true,
+        "Y": true,
+        "Z": true,
+        "Strength": 0.5,
+        "Freq": 0.10000000149011612
+    },
+    "Graphics": {
+        "Blend state": 1,
+        "Type": 1,
+        "Columns": 8,
+        "Rows": 8,
+        "Framerate": 64,
+        "Loop": true,
+        "Texture": "FeetPuffsFlipStylized_C"
+    }
+}

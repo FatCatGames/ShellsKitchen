@@ -1,0 +1,36 @@
+{
+    "Data": {
+        "Name": "Steam",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.0,
+                0.2999999523162842,
+                0.0
+            ],
+            "Rot": [
+                360.0,
+                179.96041870117188,
+                360.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "FoodSteam",
+                    "CookingParticles"
+                ]
+            }
+        ]
+    }
+}

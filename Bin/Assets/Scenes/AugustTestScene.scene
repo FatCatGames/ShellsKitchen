@@ -1,0 +1,830 @@
+{
+    "GameObjects": [
+        {
+            "Name": "Floor",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    30.0,
+                    0.40000009536743164,
+                    30.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Plane",
+                    "Materials": [
+                        "White"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": false,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Light",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -5.801536560058594,
+                    -0.830847978591919,
+                    15.637405395507813
+                ],
+                "Rot": [
+                    56.58000183105469,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 0,
+                    "Shadows": 0,
+                    "Intensity": 1.0,
+                    "Range": 10.0,
+                    "Tex": "studio_cubemap",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Camera",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    8.800000190734863,
+                    -8.699999809265137
+                ],
+                "Rot": [
+                    45.900001525878906,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Camera",
+                    "Version": 3,
+                    "FoV": 90.0,
+                    "NearPlane": 0.10000000149011612,
+                    "FarPlane": 1000.0
+                }
+            ]
+        },
+        {
+            "Name": "Stove",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -4.0,
+                    0.5,
+                    1.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "Black"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Stove"
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Trashcan",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -4.0,
+                    0.5,
+                    4.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    0.699999988079071,
+                    1.0,
+                    0.699999988079071
+                ],
+                "Children": [
+                    {
+                        "Name": "Trashcan",
+                        "Active": true,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.017466038465499878,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                0.699999988079071,
+                                1.0,
+                                0.699999988079071
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Model Instance",
+                                "Version": 6,
+                                "Model": "Cube",
+                                "Materials": [
+                                    "Black"
+                                ],
+                                "UsedForNav": false,
+                                "Renderer": 0,
+                                "Material Instance": false,
+                                "CastShadows": true,
+                                "InstanceCount": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Prefab": "Trashcan"
+        },
+        {
+            "Name": "ShrimpIngredientBox",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    3.0,
+                    0.5,
+                    4.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Prefab": "ShrimpIngredientBox"
+        },
+        {
+            "Name": "FishIngredientBox",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -1.0,
+                    0.5,
+                    4.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Prefab": "FishIngredientBox"
+        },
+        {
+            "Name": "RiceIngredientBox",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    1.0,
+                    0.5,
+                    4.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "Black"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ComponentType": "Ingredient Container",
+                    "Type": 2
+                }
+            ]
+        },
+        {
+            "Name": "Skillet",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -4.404170036315918,
+                    1.0,
+                    -0.8973401784896851
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": [
+                    {
+                        "Name": "Steam",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Particle System",
+                                "Emitters": [
+                                    "FoodSteam"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "pan_mesh",
+                        "Active": true,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Model Instance",
+                                "Version": 6,
+                                "Model": "pan_mesh",
+                                "Materials": [
+                                    "Pan_mat"
+                                ],
+                                "UsedForNav": false,
+                                "Renderer": 0,
+                                "Material Instance": false,
+                                "CastShadows": true,
+                                "InstanceCount": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Smoke",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Particle System",
+                                "Emitters": [
+                                    "FoodSmoke"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Prefab": "Skillet"
+        },
+        {
+            "Name": "Teleporters",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -3.8502228260040283,
+                    0.0,
+                    6.3944854736328125
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": [
+                    {
+                        "Name": "Teleporter1",
+                        "Active": true,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                5.528972625732422,
+                                0.5,
+                                2.6999998092651367
+                            ],
+                            "Rot": [
+                                0.0,
+                                90.0,
+                                0.0
+                            ],
+                            "Size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Model Instance",
+                                "Version": 6,
+                                "Model": "Cube",
+                                "Materials": [
+                                    "Green"
+                                ],
+                                "UsedForNav": false,
+                                "Renderer": 0,
+                                "Material Instance": false,
+                                "CastShadows": true,
+                                "InstanceCount": 0
+                            },
+                            {
+                                "ComponentType": "Box Collider",
+                                "Version": 1,
+                                "Layer": 0,
+                                "Trigger": true,
+                                "Size": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Offset": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "ComponentType": "Teleporter",
+                                "WaitingTime": 2.0,
+                                "MovingDistanceAfterTele": 2.0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Teleporter2",
+                        "Active": true,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                1.0,
+                                0.5,
+                                2.5999999046325684
+                            ],
+                            "Rot": [
+                                -0.0030221131164580584,
+                                90.0,
+                                -0.003021974815055728
+                            ],
+                            "Size": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "Model Instance",
+                                "Version": 6,
+                                "Model": "Cube",
+                                "Materials": [
+                                    "Green"
+                                ],
+                                "UsedForNav": false,
+                                "Renderer": 0,
+                                "Material Instance": false,
+                                "CastShadows": true,
+                                "InstanceCount": 0
+                            },
+                            {
+                                "ComponentType": "Box Collider",
+                                "Version": 1,
+                                "Layer": 0,
+                                "Trigger": true,
+                                "Size": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "Offset": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "ComponentType": "Teleporter",
+                                "WaitingTime": 2.0,
+                                "MovingDistanceAfterTele": 2.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Prefab": "Teleporters"
+        },
+        {
+            "Name": "MovingInteractable",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    1.3096117973327637,
+                    -1.3795509338378906,
+                    -2.8543524742126465
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Prefab": "MovingInteractable"
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    2.99192476272583,
+                    1.0491971969604492,
+                    -2.1412501335144043
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Prefab": "Player"
+        },
+        {
+            "Name": "Shrimp",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.7406634092330933,
+                    7.517566204071045,
+                    6.138115406036377
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    0.30000001192092896,
+                    0.30000001192092896,
+                    0.30000001192092896
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "RawShrimpMat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ComponentType": "Ingredient",
+                    "Type": 1,
+                    "Boilable": false,
+                    "Friable": true,
+                    "Choppable": true
+                }
+            ]
+        },
+        {
+            "Name": "MovingInteractableItem",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.902163028717041,
+                    6.708439826965332,
+                    9.383912086486816
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    0.30000001192092896,
+                    0.30000001192092896,
+                    0.30000001192092896
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Cube",
+                    "Materials": [
+                        "Yellow"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 1,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ComponentType": "Moving Interactable Items"
+                }
+            ]
+        }
+    ]
+}

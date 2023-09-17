@@ -1,0 +1,49 @@
+{
+    "Data": {
+        "Name": "marketStand_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -24.915916442871097,
+                -0.02466805838048458,
+                0.1406988501548767
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "marketStand_mesh",
+                "Materials": [
+                    "marketStand_mat",
+                    "floorPlank_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

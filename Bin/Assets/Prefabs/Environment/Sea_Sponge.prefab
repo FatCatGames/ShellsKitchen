@@ -1,0 +1,42 @@
+{
+    "Data": {
+        "Name": "Sea_Sponge_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                5.43351936340332,
+                0.2338700294494629,
+                -2.541478157043457
+            ],
+            "Rot": [
+                -180.0,
+                -0.00000762939453125,
+                -180.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "Sea_Sponge_mesh",
+                "Materials": [
+                    "Sea_Sponge_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

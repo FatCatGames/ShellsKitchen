@@ -1,0 +1,300 @@
+{
+    "Data": {
+        "Name": "Counter_Beach_Skillet",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                8.391752243041992,
+                21.22437858581543,
+                31.894515991210938
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Skillet",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.5,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            180.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Steam",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.30000001192092896,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Particle System",
+                                        "Emitters": [
+                                            "FoodSteam"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Smoke",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Particle System",
+                                        "Emitters": [
+                                            "FoodSmoke"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "CookTimer",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": [
+                                        {
+                                            "Name": "CookTimer",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.14000000059604645,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    50.0,
+                                                    20.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "Square-Default",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UICookingProgressBarPS",
+                                                    "Layer": 1,
+                                                    "Instance Shader": true,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "CookTimerBG",
+                                            "Active": true,
+                                            "Opened": true,
+                                            "Transform": {
+                                                "Version": 2,
+                                                "BoneParentID": -1,
+                                                "Pos": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Rot": [
+                                                    0.0,
+                                                    0.0,
+                                                    0.0
+                                                ],
+                                                "Size": [
+                                                    63.0,
+                                                    27.0,
+                                                    1.0
+                                                ],
+                                                "Children": []
+                                            },
+                                            "Components": [
+                                                {
+                                                    "ComponentType": "U I Sprite",
+                                                    "Version": 3,
+                                                    "Texture": "TimeBar",
+                                                    "VertexShader": "UISpriteVS",
+                                                    "PixelShader": "UISpritePS",
+                                                    "Layer": 0,
+                                                    "Instance Shader": false,
+                                                    "Color": {
+                                                        "r": 1.0,
+                                                        "g": 1.0,
+                                                        "b": 1.0,
+                                                        "a": 1.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "Prefab": "CookTimer"
+                            },
+                            {
+                                "Name": "SteamTrail",
+                                "Active": false,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.30000001192092896,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "Particle System",
+                                        "Emitters": [
+                                            "SteamTrail"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Prefab": "Skillet"
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "countertopTile_Beach_mesh",
+                "Materials": [
+                    "countertop_Beach_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    0.5,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Counter"
+            }
+        ]
+    }
+}

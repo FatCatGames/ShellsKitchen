@@ -1,0 +1,35 @@
+{
+    "Data": {
+        "Name": "FoodTrailFish",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -1.0717530250549316,
+                0.8779141902923584,
+                3.985048532485962
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "FoodTrailFish"
+                ]
+            }
+        ]
+    }
+}

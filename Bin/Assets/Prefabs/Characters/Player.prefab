@@ -1,0 +1,46 @@
+{
+    "Data": {
+        "Name": "Player",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.9726167917251588,
+                0.9376237988471984,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Player Placeholder"
+            },
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "player1_sk",
+                "Materials": [
+                    "Player_skin1_mat",
+                    "knife_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

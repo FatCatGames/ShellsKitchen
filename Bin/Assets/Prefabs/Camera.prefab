@@ -1,0 +1,82 @@
+{
+    "Data": {
+        "Name": "Camera",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -1.5087908506393433,
+                1.2024867534637451,
+                -1.6473822593688965
+            ],
+            "Rot": [
+                -123.5999984741211,
+                180.0,
+                180.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "KitchenEditorHelper",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -1.994811071881486e-7,
+                            1.127186298370361,
+                            11.314126014709473
+                        ],
+                        "Rot": [
+                            -247.1999969482422,
+                            180.00013732910156,
+                            359.99981689453125
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Prefab": "KitchenEditorHelper"
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Camera",
+                "Version": 3,
+                "FoV": 90.0,
+                "NearPlane": 0.10000000149011612,
+                "FarPlane": 1000.0
+            },
+            {
+                "ComponentType": "Ray Picker Component"
+            },
+            {
+                "ComponentType": "Distance Based Zoom Camera",
+                "Version": 2,
+                "Max Fov": 91.0,
+                "Min Fov": 89.0,
+                "End Zoom Max": 9.0,
+                "End Zoom Min": 2.0,
+                "Start Zoom Max": 8.0,
+                "Start Zoom Min": 3.0,
+                "Start Zoom Max": 8.0,
+                "Start Zoom Min": 3.0,
+                "Offset Max X": 0.5,
+                "Offset Max Y": 0.5,
+                "Offset Min X": -0.5,
+                "Offset Min Y": -0.5
+            }
+        ]
+    }
+}

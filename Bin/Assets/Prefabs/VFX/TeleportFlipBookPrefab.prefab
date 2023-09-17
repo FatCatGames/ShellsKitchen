@@ -1,0 +1,46 @@
+{
+    "Data": {
+        "Name": "TelePortFlipBookPrefab",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.7921097278594971,
+                15.35208511352539,
+                -12.32936954498291
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "PortalFlipBookMesh",
+                "Materials": [
+                    "Teleport_Flipbook_CCW_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 2.5
+            }
+        ]
+    }
+}

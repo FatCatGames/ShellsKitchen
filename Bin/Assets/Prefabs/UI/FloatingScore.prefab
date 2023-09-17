@@ -1,0 +1,79 @@
+{
+    "Data": {
+        "Name": "FloatingScore",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                1.549605131149292,
+                -2.0817346572875977,
+                -2.3549551963806152
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Sprite",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.029999999329447743,
+                            0.07999999821186066,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            500.0,
+                            600.0,
+                            500.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "numbersOneCollA",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UIPointsPS",
+                            "Layer": 4,
+                            "Instance Shader": true,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Floating Score"
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 2.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Data": {
+        "Name": "floorTile_cracked_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -10.0,
+                0.0,
+                -12.00048828125
+            ],
+            "Rot": [
+                0.0,
+                89.97201538085938,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "floorTile_cracked_mesh",
+                "Materials": [
+                    "floorTiles_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

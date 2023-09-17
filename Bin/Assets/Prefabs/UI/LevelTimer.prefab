@@ -1,0 +1,121 @@
+{
+    "Data": {
+        "Name": "LevelTimer",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.6700000166893005,
+                -0.699999988079071,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                600.0,
+                600.0,
+                400.0
+            ],
+            "Children": [
+                {
+                    "Name": "Counter",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0003800000122282654,
+                            0.0,
+                            0.00015711411833763125
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0020000000949949026,
+                            0.004999999888241291,
+                            0.004999999888241291
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Time",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.23499999940395355,
+                                        -0.0020000000949949026,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        475.0,
+                                        280.0,
+                                        30.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "numbersOneCollA",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UITimerPS",
+                                        "Layer": 1,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Level Counter Component"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "U I Sprite",
+                "Version": 3,
+                "Texture": "TimeCount",
+                "VertexShader": "UISpriteVS",
+                "PixelShader": "UISpritePS",
+                "Layer": 0,
+                "Instance Shader": false,
+                "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                }
+            },
+            {
+                "ComponentType": "Level Timer"
+            }
+        ]
+    }
+}

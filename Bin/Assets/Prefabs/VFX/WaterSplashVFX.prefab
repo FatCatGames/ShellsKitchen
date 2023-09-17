@@ -1,0 +1,49 @@
+{
+    "Data": {
+        "Name": "WaterSplashVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.3803296387195587,
+                -2.3574914932250977,
+                -2.4379050731658936
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "WaterSplashFlipbook",
+                    "WaterRings",
+                    "WaterSplash"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 2.0
+            },
+            {
+                "ComponentType": "Audio Mono Component",
+                "Active": true,
+                "AmountOfSounds": 1,
+                "Effects": [
+                    "event:/SFX/Water Splash"
+                ]
+            }
+        ]
+    }
+}

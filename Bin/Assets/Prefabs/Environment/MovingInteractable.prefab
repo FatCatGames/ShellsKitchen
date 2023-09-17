@@ -1,0 +1,83 @@
+{
+    "Data": {
+        "Name": "MovingInteractable",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                1.4906272888183594,
+                4.222847938537598,
+                8.748550415039063
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Moving Interactable",
+                "randomRepsawnTimeLowValue": 2,
+                "randomRepsawnTimeHighValue": 4,
+                "IdleTime": 0.5,
+                "mySpeed": 1.0,
+                "yValue": 1.100000023841858,
+                "myProcentChanseOfDirectionChange": 5,
+                "TimebeforeCheckingIfTurning": 0.5,
+                "myMaxCurveDistance": 0.699999988079071,
+                "myCurvingSpeed": 0.05000000074505806,
+                "myMovingVectors": [
+                    {
+                        "myPosVectors": [
+                            {
+                                "x": 0.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": -2.0,
+                                "z": -2.0
+                            },
+                            {
+                                "x": 4.0,
+                                "z": 4.0
+                            },
+                            {
+                                "x": 4.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.0,
+                                "z": 0.0
+                            }
+                        ]
+                    },
+                    {
+                        "myPosVectors": [
+                            {
+                                "x": 0.0,
+                                "z": 0.0
+                            },
+                            {
+                                "x": 0.0,
+                                "z": 10.0
+                            },
+                            {
+                                "x": 10.0,
+                                "z": 10.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

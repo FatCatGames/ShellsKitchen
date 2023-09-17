@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "patch_big_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                4.398148059844971,
+                -0.2582245469093323,
+                -4.114784240722656
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "patch_big_mesh",
+                "Materials": [
+                    "patch_big"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 5
+            }
+        ]
+    }
+}

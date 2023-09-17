@@ -1,0 +1,44 @@
+{
+    "Data": {
+        "Name": "shrimp_caviar_sushi",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.8220577239990234,
+                0.05013646185398102,
+                3.0942113399505615
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "shrimp_caviar_sushi_mesh",
+                "Materials": [
+                    "shrimp_sushi_mat",
+                    "Caviar_mat",
+                    "CaviarOutline_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

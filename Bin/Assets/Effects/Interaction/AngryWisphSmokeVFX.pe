@@ -1,0 +1,199 @@
+{
+    "Version": 14,
+    "Emission Data": {
+        "WorldSpace": true,
+        "Looping": false,
+        "Max particles": 150,
+        "Duration": 1.5,
+        "Delay": 0.0,
+        "Size": {
+            "min": 3.0,
+            "max": 9.0,
+            "evaluationType": "random"
+        },
+        "Speed": {
+            "min": 1.5,
+            "max": 3.0,
+            "evaluationType": "random"
+        },
+        "Lifetime": {
+            "min": 0.6000000238418579,
+            "max": 2.0,
+            "evaluationType": "random"
+        },
+        "Rotation": {
+            "default": 0.0,
+            "evaluationType": "default"
+        },
+        "Time between emissions": {
+            "default": 0.20000000298023224,
+            "evaluationType": "default"
+        },
+        "Particles per emission": {
+            "default": 20,
+            "evaluationType": "default"
+        },
+        "Spawn delay": {
+            "default": 0.0,
+            "evaluationType": "default"
+        },
+        "Start color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+        },
+        "Use gravity": false,
+        "Gravity modifier": 1.0
+    },
+    "Shape Data": {
+        "Shape": 2,
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "SizeX": 1.0,
+        "SizeY": 1.0,
+        "SizeZ": 1.0
+    },
+    "Over lifetime": {
+        "Size": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.30000001192092896
+                },
+                {
+                    "x": 0.30000001192092896,
+                    "y": 0.8999999761581421
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.2000000476837158
+                }
+            ],
+            "enabled": true
+        },
+        "Speed": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 0.699999988079071,
+                    "y": 0.5
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.20000000298023224
+                }
+            ],
+            "enabled": true
+        },
+        "Rotation": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "enabled": false
+        },
+        "Color": {
+            "enabled": true,
+            "Gradient": [
+                {
+                    "Color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 0.0
+                    },
+                    "pos": 0
+                },
+                {
+                    "Color": {
+                        "r": 0.389162540435791,
+                        "g": 0.389162540435791,
+                        "b": 0.389162540435791,
+                        "a": 0.9113300442695618
+                    },
+                    "pos": 8
+                },
+                {
+                    "Color": {
+                        "r": 0.21103119850158691,
+                        "g": 0.21103119850158691,
+                        "b": 0.21103119850158691,
+                        "a": 0.7733989953994751
+                    },
+                    "pos": 79
+                },
+                {
+                    "Color": {
+                        "r": 0.21182268857955933,
+                        "g": 0.21077923476696014,
+                        "b": 0.21077923476696014,
+                        "a": 0.0
+                    },
+                    "pos": 100
+                }
+            ]
+        },
+        "Velocity": {
+            "enabled": false,
+            "X": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Y": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Z": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Strength": 10.0
+        }
+    },
+    "Noise Data": {
+        "Enabled": true,
+        "X": true,
+        "Y": true,
+        "Z": true,
+        "Strength": 0.6000000238418579,
+        "Freq": 0.8999999761581421
+    },
+    "Graphics": {
+        "Blend state": 1,
+        "Type": 1,
+        "Columns": 8,
+        "Rows": 8,
+        "Framerate": 64,
+        "Loop": false,
+        "Texture": "WispySmoke01_8x8"
+    }
+}

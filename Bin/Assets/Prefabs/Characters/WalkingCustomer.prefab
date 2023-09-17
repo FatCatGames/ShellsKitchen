@@ -1,0 +1,82 @@
+{
+    "Data": {
+        "Name": "WalkingCustomer",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                6.423152923583984,
+                115.65167999267578,
+                -60.381134033203125
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "customer_sk",
+                "Materials": [
+                    "customer_mat",
+                    "customer_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": false,
+                "Controller": "CustomerAnimationController"
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": false,
+                "Mass": 1.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": false,
+                "Lock Rotation Y": false,
+                "Lock Rotation Z": false,
+                "Dampening": 0.0
+            },
+            {
+                "ComponentType": "Walking Customer"
+            }
+        ]
+    }
+}

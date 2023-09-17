@@ -1,0 +1,63 @@
+{
+    "Data": {
+        "Name": "SharkRipplesVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                124.94795989990234,
+                90.9384536743164,
+                -0.6580924987792969
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                50.0,
+                1.0,
+                50.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "Plane",
+                "Materials": [
+                    "SharkRipple_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Bob Spin Component",
+                "Should Bob": false,
+                "Should Spin": true,
+                "Bob Speeds": [
+                    0.0,
+                    2.0,
+                    0.0
+                ],
+                "Bob Heights": [
+                    0.0,
+                    2.0,
+                    0.0
+                ],
+                "Spin Speeds": [
+                    0.0,
+                    25.0,
+                    0.0
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Data": {
+        "Name": "DashVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.68873131275177,
+                0.803604245185852,
+                1.0798029899597168
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "DashVFX"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 1.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "SharkRipplesVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                124.94795989990234,
+                90.9384536743164,
+                -0.6580924987792969
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                50.0,
+                1.0,
+                50.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "Plane",
+                "Materials": [
+                    "SharkRipple_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 5
+            }
+        ]
+    }
+}

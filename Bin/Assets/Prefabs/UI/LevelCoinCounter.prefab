@@ -1,0 +1,124 @@
+{
+    "Data": {
+        "Name": "LevelCoinCounter",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.6790000200271606,
+                -0.699999988079071,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                400.0,
+                400.0,
+                400.0
+            ],
+            "Children": [
+                {
+                    "Name": "Counter",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.0003699999942909926,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.0020000000949949026,
+                            0.004999999888241291,
+                            0.004999999888241291
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Score",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.27000001072883606,
+                                        0.004999999888241291,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        340.0,
+                                        200.0,
+                                        200.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "numbersOneCollA",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UICounterPS",
+                                        "Layer": 1,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Coin Counter Component"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "U I Sprite",
+                "Version": 3,
+                "Texture": "CoinCount",
+                "VertexShader": "UISpriteVS",
+                "PixelShader": "UISpritePS",
+                "Layer": 0,
+                "Instance Shader": false,
+                "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                }
+            },
+            {
+                "ComponentType": "Level Coin Counter",
+                "Bronze": 10,
+                "Silver": 100,
+                "Gold": 200
+            }
+        ]
+    }
+}

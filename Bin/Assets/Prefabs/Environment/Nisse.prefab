@@ -1,0 +1,51 @@
+{
+    "Data": {
+        "Name": "nisse_sk",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -26.06681251525879,
+                3.183471441268921,
+                5.286689281463623
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999990463256836
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "nisse_sk",
+                "Materials": [
+                    "Lifebuoy_mat",
+                    "Nisse_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": true,
+                "Controller": "NisseAnimationController"
+            }
+        ]
+    }
+}

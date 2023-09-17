@@ -1,0 +1,44 @@
+{
+    "Version": 8,
+    "Emissive": 14.010000228881836,
+    "Color": {
+        "r": 0.0,
+        "g": 0.7058823108673096,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "Cool_SpiralNoiseMask",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "TeleportPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "TeleportVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 0.0,
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 3,
+    "RasterizerState": 0,
+    "Custom Texture Count": 1,
+    "Texture Ids": [
+        11
+    ],
+    "Texture Names": [
+        "T_default_C"
+    ]
+}

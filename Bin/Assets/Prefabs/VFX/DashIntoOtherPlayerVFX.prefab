@@ -1,0 +1,49 @@
+{
+    "Data": {
+        "Name": "DashIntoOtherPlayerVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -3.1343579292297363,
+                2.565034866333008,
+                4.436225891113281
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 1.0
+            },
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "DashIntoOtherPlayerPuff",
+                    "DashIntoOtherPlayerStarOrange",
+                    "DashIntoOtherPlayerStarYellow"
+                ]
+            },
+            {
+                "ComponentType": "Audio Mono Component",
+                "Active": true,
+                "AmountOfSounds": 1,
+                "Effects": [
+                    "event:/Player/Bump"
+                ]
+            }
+        ]
+    }
+}

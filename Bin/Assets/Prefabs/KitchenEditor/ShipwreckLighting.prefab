@@ -1,0 +1,113 @@
+{
+    "Data": {
+        "Name": "ShipwreckLighting",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Light",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -5.801536560058594,
+                            6.529883861541748,
+                            9.9403715133667
+                        ],
+                        "Rot": [
+                            79.19049835205078,
+                            0.3942556381225586,
+                            -0.886444091796875
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Light",
+                            "Version": 2,
+                            "Type": 0,
+                            "Shadows": 1,
+                            "Intensity": 4.159999847412109,
+                            "Range": 10.0,
+                            "Tex": "",
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "EnvLight",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Light",
+                            "Version": 2,
+                            "Type": 3,
+                            "Shadows": 0,
+                            "Intensity": 1.25,
+                            "Range": 10.0,
+                            "Tex": "ShellskitchenCubemap_1_cube_specular",
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": []
+    }
+}

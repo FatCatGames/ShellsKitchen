@@ -1,0 +1,190 @@
+{
+    "Version": 13,
+    "Emission Data": {
+        "WorldSpace": true,
+        "Looping": true,
+        "Max particles": 100,
+        "Duration": 5.0,
+        "Delay": 0.0,
+        "Size": {
+            "min": 10.0,
+            "max": 14.0,
+            "evaluationType": "random"
+        },
+        "Speed": {
+            "default": 0.10000000149011612,
+            "evaluationType": "default"
+        },
+        "Lifetime": {
+            "default": 1.0,
+            "evaluationType": "default"
+        },
+        "Rotation": {
+            "min": 0.0,
+            "max": 360.0,
+            "evaluationType": "random"
+        },
+        "Time between emissions": {
+            "default": 0.10000000149011612,
+            "evaluationType": "default"
+        },
+        "Particles per emission": {
+            "default": 1,
+            "evaluationType": "default"
+        },
+        "Spawn delay": {
+            "default": 0.0,
+            "evaluationType": "default"
+        },
+        "Start color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+        },
+        "Use gravity": false,
+        "Gravity modifier": 1.0
+    },
+    "Shape Data": {
+        "Shape": 0,
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "SizeX": 0.0,
+        "SizeY": 0.0,
+        "SizeZ": 0.0
+    },
+    "Over lifetime": {
+        "Size": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 1.0
+                }
+            ],
+            "enabled": true
+        },
+        "Speed": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.25
+                }
+            ],
+            "enabled": false
+        },
+        "Rotation": {
+            "Curve": [
+                {
+                    "x": 0.0,
+                    "y": 0.25
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "enabled": false
+        },
+        "Color": {
+            "enabled": true,
+            "Gradient": [
+                {
+                    "Color": {
+                        "r": 19.60784339904785,
+                        "g": 19.60784339904785,
+                        "b": 19.60784339904785,
+                        "a": 0.0
+                    },
+                    "pos": 0
+                },
+                {
+                    "Color": {
+                        "r": 12.150226593017578,
+                        "g": 12.150226593017578,
+                        "b": 12.150226593017578,
+                        "a": 0.0
+                    },
+                    "pos": 10
+                },
+                {
+                    "Color": {
+                        "r": 8.575745582580566,
+                        "g": 8.575745582580566,
+                        "b": 8.575745582580566,
+                        "a": 0.23152709007263184
+                    },
+                    "pos": 65
+                },
+                {
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "pos": 100
+                }
+            ]
+        },
+        "Velocity": {
+            "enabled": true,
+            "X": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Y": [
+                {
+                    "x": 0.0,
+                    "y": 2.9000000953674316
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Z": [
+                {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                {
+                    "x": 1.0,
+                    "y": 0.0
+                }
+            ],
+            "Strength": 10.0
+        }
+    },
+    "Noise Data": {
+        "Enabled": false,
+        "X": true,
+        "Y": true,
+        "Z": true,
+        "Strength": 0.10000000149011612,
+        "Freq": 1.0
+    },
+    "Graphics": {
+        "Blend state": 1,
+        "Type": 1,
+        "Columns": 8,
+        "Rows": 8,
+        "Framerate": 64,
+        "Loop": true,
+        "Texture": "FoodSteamFlipbook_C"
+    }
+}

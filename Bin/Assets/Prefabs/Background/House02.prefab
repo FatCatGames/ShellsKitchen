@@ -1,0 +1,49 @@
+{
+    "Data": {
+        "Name": "House02_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -72.76988983154297,
+                0.00011580954014789312,
+                81.02526092529297
+            ],
+            "Rot": [
+                -179.99984741210938,
+                -0.027965545654296875,
+                -179.99993896484375
+            ],
+            "Size": [
+                1.7999999523162842,
+                1.7999999523162842,
+                1.7999999523162842
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "House02_mesh",
+                "Materials": [
+                    "Docks_mat",
+                    "Tiling_Wall_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

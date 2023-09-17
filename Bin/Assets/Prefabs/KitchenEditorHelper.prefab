@@ -1,0 +1,32 @@
+{
+    "Data": {
+        "Name": "KitchenEditorHelper",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -5.960464477539064e-8,
+                0.0,
+                0.0
+            ],
+            "Rot": [
+                -123.5999984741211,
+                0.00014311839186120778,
+                179.9998321533203
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Kitchen Window Dummy Component"
+            }
+        ]
+    }
+}

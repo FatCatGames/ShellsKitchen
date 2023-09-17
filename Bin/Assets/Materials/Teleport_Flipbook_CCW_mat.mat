@@ -1,0 +1,44 @@
+{
+    "Version": 8,
+    "Emissive": 4.150000095367432,
+    "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "TeleportSwirlCCW",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "FlipbookPS",
+        "Columns": 8,
+        "Rows": 8,
+        "Framerate": 120,
+        "Loop": false
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 0.10000000149011612,
+    "c2": 0.550000011920929,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 3,
+    "RasterizerState": 1,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

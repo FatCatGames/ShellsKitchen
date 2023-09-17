@@ -1,0 +1,910 @@
+{
+    "GameObjects": [
+        {
+            "Name": "Light",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -5.801536560058594,
+                    8.336610794067383,
+                    9.587990760803223
+                ],
+                "Rot": [
+                    78.96370697021484,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 0,
+                    "Shadows": 1,
+                    "Intensity": 2.0799999237060547,
+                    "Range": 10.0,
+                    "Tex": "studio_cubemap",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Camera",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    8.800000190734863,
+                    -7.199999809265137
+                ],
+                "Rot": [
+                    -123.5999984741211,
+                    180.0,
+                    180.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Camera",
+                    "Version": 3,
+                    "FoV": 90.0,
+                    "NearPlane": 0.10000000149011612,
+                    "FarPlane": 1000.0
+                }
+            ]
+        },
+        {
+            "Name": "EnvLight",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Light",
+                    "Version": 2,
+                    "Type": 3,
+                    "Shadows": 0,
+                    "Intensity": 1.0700000524520874,
+                    "Range": 10.0,
+                    "Tex": "ShellskitchenCubemap_1_cube_specular",
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "WaterPlane",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    -5.492129325866699,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    1.100000023841858,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "PlaneSubdivided2",
+                    "Materials": [
+                        "StylizedWaterMaterial"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 1,
+                    "Material Instance": false,
+                    "CastShadows": false,
+                    "InstanceCount": 0
+                }
+            ]
+        },
+        {
+            "Name": "Floor",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.43557727336883545,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    11.999999046325684,
+                    1.2000000476837158,
+                    11.999999046325684
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "Plane",
+                    "Materials": [
+                        "Brown"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": false,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 2,
+                    "Layer": 0,
+                    "Trigger": false,
+                    "Size": [
+                        1.0,
+                        0.5,
+                        1.0
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "WaitForRB": false
+                }
+            ]
+        },
+        {
+            "Name": "Pause Menu",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.0,
+                    0.20000000298023224,
+                    0.0
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": [
+                    {
+                        "Name": "Resume",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.1634855717420578,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "Resume",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 4,
+                                "PlayerID": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Restart",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                0.031152233481407166,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "ResetLevel",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 14,
+                                "PlayerID": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Settings",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                -0.09959664195775986,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "Settings",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 1,
+                                "PlayerID": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Controls",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                -0.23514802753925323,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "Controls",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 13,
+                                "PlayerID": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Main Menu",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                -0.36620041728019714,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "MainMenu",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 10,
+                                "PlayerID": 0
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Quit",
+                        "Active": false,
+                        "Opened": true,
+                        "Transform": {
+                            "Version": 2,
+                            "BoneParentID": -1,
+                            "Pos": [
+                                0.0,
+                                -0.4974491000175476,
+                                0.0
+                            ],
+                            "Rot": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "Size": [
+                                256.0,
+                                64.0,
+                                1.0
+                            ],
+                            "Children": []
+                        },
+                        "Components": [
+                            {
+                                "ComponentType": "U I Sprite",
+                                "Version": 3,
+                                "Texture": "Quit",
+                                "VertexShader": "UISpriteVS",
+                                "PixelShader": "UISpritePS",
+                                "Layer": 0,
+                                "Instance Shader": false,
+                                "Color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            },
+                            {
+                                "ComponentType": "Menu Button",
+                                "MenuButtonID": 3,
+                                "PlayerID": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Prefab": "PauseMenu"
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    1.0405374765396118,
+                    0.5523898601531982,
+                    -1.410990595817566
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "player1_sk",
+                    "Materials": [
+                        "Yellow",
+                        "knife_mat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 2,
+                    "Layer": 1,
+                    "Trigger": false,
+                    "Size": [
+                        0.6000000238418579,
+                        1.0,
+                        0.699999988079071
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "WaitForRB": false
+                },
+                {
+                    "ComponentType": "Rigid Body",
+                    "Use Gravity": true,
+                    "Mass": 100.0,
+                    "Lock Translation X": false,
+                    "Lock Translation Y": false,
+                    "Lock Translation Z": false,
+                    "Lock Rotation X": true,
+                    "Lock Rotation Y": true,
+                    "Lock Rotation Z": true
+                },
+                {
+                    "ComponentType": "Player",
+                    "Version": 3,
+                    "Speed": 300.0,
+                    "DashSpeed": 1200.0,
+                    "DashDuration": 0.15000000596046448,
+                    "DashCooldown": 0.30000001192092896,
+                    "ThrowingStrength": 35.0,
+                    "ControllerDeadlock": 0.0,
+                    "RotationSpeed": 600.0,
+                    "BounceStrength": 3.0,
+                    "BounceDuration": 0.15000000596046448
+                },
+                {
+                    "ComponentType": "Animator",
+                    "Version": 2,
+                    "AnimationIndex": 0,
+                    "DistTickrate": false,
+                    "Controller": "Player1Animation"
+                }
+            ]
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -0.8764874935150146,
+                    0.5903346538543701,
+                    -1.4076204299926758
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "player1_sk",
+                    "Materials": [
+                        "Blue",
+                        "knife_mat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 2,
+                    "Layer": 1,
+                    "Trigger": false,
+                    "Size": [
+                        0.6000000238418579,
+                        1.0,
+                        0.699999988079071
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "WaitForRB": false
+                },
+                {
+                    "ComponentType": "Rigid Body",
+                    "Use Gravity": true,
+                    "Mass": 100.0,
+                    "Lock Translation X": false,
+                    "Lock Translation Y": false,
+                    "Lock Translation Z": false,
+                    "Lock Rotation X": true,
+                    "Lock Rotation Y": true,
+                    "Lock Rotation Z": true
+                },
+                {
+                    "ComponentType": "Player",
+                    "Version": 3,
+                    "Speed": 300.0,
+                    "DashSpeed": 1200.0,
+                    "DashDuration": 0.15000000596046448,
+                    "DashCooldown": 0.30000001192092896,
+                    "ThrowingStrength": 35.0,
+                    "ControllerDeadlock": 0.0,
+                    "RotationSpeed": 600.0,
+                    "BounceStrength": 3.0,
+                    "BounceDuration": 0.15000000596046448
+                },
+                {
+                    "ComponentType": "Animator",
+                    "Version": 2,
+                    "AnimationIndex": 0,
+                    "DistTickrate": false,
+                    "Controller": "Player1Animation"
+                }
+            ]
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    -0.9664553999900818,
+                    0.5903346538543701,
+                    0.338855504989624
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "player1_sk",
+                    "Materials": [
+                        "Player_skin1_mat",
+                        "knife_mat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 2,
+                    "Layer": 1,
+                    "Trigger": false,
+                    "Size": [
+                        0.6000000238418579,
+                        1.0,
+                        0.699999988079071
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "WaitForRB": false
+                },
+                {
+                    "ComponentType": "Rigid Body",
+                    "Use Gravity": true,
+                    "Mass": 100.0,
+                    "Lock Translation X": false,
+                    "Lock Translation Y": false,
+                    "Lock Translation Z": false,
+                    "Lock Rotation X": true,
+                    "Lock Rotation Y": true,
+                    "Lock Rotation Z": true
+                },
+                {
+                    "ComponentType": "Player",
+                    "Version": 3,
+                    "Speed": 300.0,
+                    "DashSpeed": 1200.0,
+                    "DashDuration": 0.15000000596046448,
+                    "DashCooldown": 0.30000001192092896,
+                    "ThrowingStrength": 35.0,
+                    "ControllerDeadlock": 0.0,
+                    "RotationSpeed": 600.0,
+                    "BounceStrength": 3.0,
+                    "BounceDuration": 0.15000000596046448
+                },
+                {
+                    "ComponentType": "Animator",
+                    "Version": 2,
+                    "AnimationIndex": 0,
+                    "DistTickrate": false,
+                    "Controller": "Player1Animation"
+                }
+            ]
+        },
+        {
+            "Name": "Player",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    1.0293465852737427,
+                    0.3384771943092346,
+                    0.3695985674858093
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Components": [
+                {
+                    "ComponentType": "Model Instance",
+                    "Version": 6,
+                    "Model": "player2_sk",
+                    "Materials": [
+                        "Player_skin2_mat",
+                        "knife_mat"
+                    ],
+                    "UsedForNav": false,
+                    "Renderer": 0,
+                    "Material Instance": false,
+                    "CastShadows": true,
+                    "InstanceCount": 0
+                },
+                {
+                    "ComponentType": "Box Collider",
+                    "Version": 2,
+                    "Layer": 1,
+                    "Trigger": false,
+                    "Size": [
+                        0.6000000238418579,
+                        1.0,
+                        0.699999988079071
+                    ],
+                    "Offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "WaitForRB": false
+                },
+                {
+                    "ComponentType": "Rigid Body",
+                    "Use Gravity": true,
+                    "Mass": 100.0,
+                    "Lock Translation X": false,
+                    "Lock Translation Y": false,
+                    "Lock Translation Z": false,
+                    "Lock Rotation X": true,
+                    "Lock Rotation Y": true,
+                    "Lock Rotation Z": true
+                },
+                {
+                    "ComponentType": "Player",
+                    "Version": 3,
+                    "Speed": 300.0,
+                    "DashSpeed": 1200.0,
+                    "DashDuration": 0.15000000596046448,
+                    "DashCooldown": 0.30000001192092896,
+                    "ThrowingStrength": 35.0,
+                    "ControllerDeadlock": 0.0,
+                    "RotationSpeed": 600.0,
+                    "BounceStrength": 3.0,
+                    "BounceDuration": 0.15000000596046448
+                },
+                {
+                    "ComponentType": "Animator",
+                    "Version": 2,
+                    "AnimationIndex": 0,
+                    "DistTickrate": false,
+                    "Controller": "Player2Animation"
+                }
+            ]
+        },
+        {
+            "Name": "ShrimpIngredientBox",
+            "Active": true,
+            "Opened": true,
+            "Transform": {
+                "Version": 2,
+                "BoneParentID": -1,
+                "Pos": [
+                    0.11424389481544495,
+                    0.45894819498062134,
+                    -0.49390459060668945
+                ],
+                "Rot": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Children": []
+            },
+            "Prefab": "ShrimpIngredientBox"
+        }
+    ]
+}

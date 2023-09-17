@@ -1,0 +1,66 @@
+{
+    "Data": {
+        "Name": "FishIngredientBox",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.3269639015197754,
+                8.081171035766602,
+                11.225167274475098
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "IngredientBox_Fish_mesh",
+                "Materials": [
+                    "fish_mat",
+                    "ingredientbox_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 1
+            },
+            {
+                "ComponentType": "Ingredient Container",
+                "Type": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "Data": {
+        "Name": "WaterSplashVFX_axol",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -1.071552276611328,
+                10.79825210571289,
+                -13.688034057617188
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "WaterSplashFlipbook",
+                    "WaterRings",
+                    "WaterSplash"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 2.0
+            }
+        ]
+    }
+}

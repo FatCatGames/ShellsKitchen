@@ -1,0 +1,40 @@
+{
+    "Version": 7,
+    "Emissive": 1.0,
+    "Color": {
+        "r": 0.044117629528045654,
+        "g": 0.634515643119812,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "Square-Default",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "DefaultPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 0.0,
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 0,
+    "RasterizerState": 0,
+    "Dynamic Friction": 0.0,
+    "Static Friction": 0.0,
+    "Restitution": 0.0
+}

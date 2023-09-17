@@ -1,0 +1,349 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "WrongOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 6384,
+                    "targetPin": "In",
+                    "targetUID": 6351,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "RightOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 6384,
+                    "targetPin": "In",
+                    "targetUID": 6362,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6351,
+                    "targetPin": "In",
+                    "targetUID": 6340,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6362,
+                    "targetPin": "In",
+                    "targetUID": 6340,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6362,
+                    "targetPin": "In",
+                    "targetUID": 6395,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6351,
+                    "targetPin": "In",
+                    "targetUID": 6395,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 6340,
+                    "targetPin": "In",
+                    "targetUID": 6395,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 6340,
+                    "targetPin": "In",
+                    "targetUID": 6373,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 6395,
+                    "targetPin": "In",
+                    "targetUID": 6373,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6373,
+                    "targetPin": "In",
+                    "targetUID": 6340,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 6373,
+                    "targetPin": "In",
+                    "targetUID": 6395,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 6340,
+                    "animation": "shark_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": -128.0,
+                    "y": 187.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 6351,
+                    "animation": "shark_wrongOrder_anim",
+                    "events": [
+                        {
+                            "frame": 0,
+                            "sfxIndex": 1,
+                            "type": 1
+                        },
+                        {
+                            "bone": "shark_rig:Head_jnt",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "SwearVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 3.0,
+                            "z": 0.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -128.0,
+                    "y": 75.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 6362,
+                    "animation": "shark_eat_anim",
+                    "events": [
+                        {
+                            "frame": 0,
+                            "sfxIndex": 0,
+                            "type": 1
+                        },
+                        {
+                            "bone": "shark_rig:Head_jnt",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "HappyHeartzVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": -0.5
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 128.0,
+                    "y": 90.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 6373,
+                    "animation": "shark_hit_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 299.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 6384,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "transToSelf": false,
+                    "x": 0.0,
+                    "y": -6.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 6395,
+                    "animation": "shark_impatient_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 128.0,
+                    "y": 187.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "shark_sk",
+    "variables": [
+        {
+            "name": "WrongOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "IngredientHit",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "RightOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "LongTime",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        }
+    ]
+}

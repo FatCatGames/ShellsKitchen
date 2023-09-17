@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "pineapple_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                10.96759796142578,
+                -0.04583251476287842,
+                -1.4582576751708984
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "pineapple_mesh",
+                "Materials": [
+                    "Pineapple_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            }
+        ]
+    }
+}

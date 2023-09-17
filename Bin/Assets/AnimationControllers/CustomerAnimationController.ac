@@ -1,0 +1,305 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5263,
+                    "targetPin": "In",
+                    "targetUID": 5252,
+                    "transTime": 0.05000000074505806
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        },
+                        {
+                            "leftVar": "Stun",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5252,
+                    "targetPin": "In",
+                    "targetUID": 5285,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5285,
+                    "targetPin": "In",
+                    "targetUID": 5252,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5263,
+                    "targetPin": "In",
+                    "targetUID": 5285,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "FallIndex",
+                            "op": 1,
+                            "rightVar": [
+                                1,
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "leftVar": "Stun",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5285,
+                    "targetPin": "In",
+                    "targetUID": 5241,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5241,
+                    "targetPin": "In",
+                    "targetUID": 5252,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5263,
+                    "targetPin": "In",
+                    "targetUID": 5285,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Walking",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5241,
+                    "targetPin": "In",
+                    "targetUID": 5285,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Stun",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        },
+                        {
+                            "leftVar": "FallIndex",
+                            "op": 1,
+                            "rightVar": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5274,
+                    "targetPin": "In",
+                    "targetUID": 5263,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Stun",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        },
+                        {
+                            "leftVar": "FallIndex",
+                            "op": 1,
+                            "rightVar": [
+                                1,
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5274,
+                    "targetPin": "In",
+                    "targetUID": 5241,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 5241,
+                    "animation": "customer_hitFall02_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 128.0,
+                    "y": 75.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5252,
+                    "animation": "customer_walk_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": 128.0,
+                    "y": -53.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5263,
+                    "animation": "customer_hitFall01_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -112.0,
+                    "y": 74.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5274,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "transToSelf": true,
+                    "x": 16.0,
+                    "y": 186.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5285,
+                    "animation": "customer_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": -112.0,
+                    "y": -53.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "customer_sk",
+    "variables": [
+        {
+            "name": "Stun",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "Walking",
+            "type": "bool",
+            "value": [
+                1
+            ]
+        },
+        {
+            "name": "FallIndex",
+            "type": "int",
+            "value": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

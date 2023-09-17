@@ -1,0 +1,78 @@
+{
+    "Data": {
+        "Name": "MovingPlatform",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                0.029999999329447743,
+                0.009999999776482582,
+                0.029999999329447743
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "LD_cube",
+                "Materials": [
+                    "DefaultMat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    100.0,
+                    100.0,
+                    100.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": true,
+                "Mass": 1.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": false,
+                "Lock Rotation Y": false,
+                "Lock Rotation Z": false
+            },
+            {
+                "ComponentType": "Moving Platform",
+                "Version": 1,
+                "ShouldLoop": true,
+                "ShouldCarry": true,
+                "HasCrab": false,
+                "Waypoints": []
+            }
+        ]
+    }
+}

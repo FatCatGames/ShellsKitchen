@@ -1,0 +1,40 @@
+{
+    "Version": 8,
+    "Emissive": 1.1799999475479126,
+    "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "WhiteTexture",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "CloudPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 1.3619999885559082,
+    "c2": 1.0071916580200195,
+    "c3": 0.25999999046325684,
+    "c4": 56.66999816894531,
+    "c5": 0.2199999988079071,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 1,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

@@ -1,0 +1,39 @@
+{
+    "Data": {
+        "Name": "ThrowingVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                1.6672226190567017,
+                0.7919376492500305,
+                -2.015428066253662
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "ThrowingVFX"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 1.0
+            }
+        ]
+    }
+}

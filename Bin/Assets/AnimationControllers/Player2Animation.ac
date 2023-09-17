@@ -1,0 +1,1043 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5609,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5675,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDead",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5642,
+                    "targetPin": "In",
+                    "targetUID": 5686,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5675,
+                    "targetPin": "In",
+                    "targetUID": 5620,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5609,
+                    "targetPin": "In",
+                    "targetUID": 5620,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        },
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5620,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        },
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5620,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDead",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5686,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Chopping",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5642,
+                    "targetPin": "In",
+                    "targetUID": 5631,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        },
+                        {
+                            "leftVar": "Chopping",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5631,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        },
+                        {
+                            "leftVar": "Chopping",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5631,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Throwing",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5642,
+                    "targetPin": "In",
+                    "targetUID": 5664,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5664,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5664,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Teleporting",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5642,
+                    "targetPin": "In",
+                    "targetUID": 5653,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Teleporting",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5653,
+                    "targetPin": "In",
+                    "targetUID": 5697,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5697,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "PlaceItem",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5642,
+                    "targetPin": "In",
+                    "targetUID": 5708,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        },
+                        {
+                            "leftVar": "PlaceItem",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5708,
+                    "targetPin": "In",
+                    "targetUID": 5675,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        },
+                        {
+                            "leftVar": "PlaceItem",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5708,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5697,
+                    "targetPin": "In",
+                    "targetUID": 5609,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 5664,
+                    "animation": "player2_throw_anim",
+                    "events": [
+                        {
+                            "bone": "",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "ThrowingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -208.0,
+                    "y": 235.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5609,
+                    "animation": "player2_run_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": 208.0,
+                    "y": -2.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5653,
+                    "animation": "player2_portalEnter_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 80.0,
+                    "y": 330.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5620,
+                    "animation": "player2_dash_anim",
+                    "events": [
+                        {
+                            "bone": "",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "DashVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 416.0,
+                    "y": 123.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5642,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "transToSelf": false,
+                    "x": -16.0,
+                    "y": 139.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5631,
+                    "animation": "player2_chopping_anim",
+                    "events": [
+                        {
+                            "frame": 23,
+                            "sfxIndex": 3,
+                            "type": 1
+                        },
+                        {
+                            "frame": 31,
+                            "sfxIndex": 3,
+                            "type": 1
+                        },
+                        {
+                            "frame": 36,
+                            "sfxIndex": 3,
+                            "type": 1
+                        },
+                        {
+                            "bone": "KebabPizza_rig:_knife_jnt",
+                            "boneRot": false,
+                            "frame": 25,
+                            "prefabName": "ChoppingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "KebabPizza_rig:_knife_jnt",
+                            "boneRot": false,
+                            "frame": 34,
+                            "prefabName": "ChoppingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "KebabPizza_rig:_knife_jnt",
+                            "boneRot": false,
+                            "frame": 38,
+                            "prefabName": "ChoppingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "KebabPizza_rig:_knife_jnt",
+                            "boneRot": false,
+                            "frame": 43,
+                            "prefabName": "ChoppingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "KebabPizza_rig:_knife_jnt",
+                            "boneRot": false,
+                            "frame": 47,
+                            "prefabName": "ChoppingVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "frame": 41,
+                            "sfxIndex": 3,
+                            "type": 1
+                        },
+                        {
+                            "frame": 45,
+                            "sfxIndex": 3,
+                            "type": 1
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 176.0,
+                    "y": 234.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5675,
+                    "animation": "player2_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": -5.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5686,
+                    "animation": "player2_death_anim",
+                    "events": [
+                        {
+                            "bone": "",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "WaterSplashVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -16.0,
+                    "y": 235.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5697,
+                    "animation": "player2_portalExit_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 384.0,
+                    "y": 411.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5708,
+                    "animation": "player2_deliver_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -272.0,
+                    "y": 43.0,
+                    "z": 0.0
+                }
+            ]
+        },
+        {
+            "active": false,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5814,
+                    "targetPin": "In",
+                    "targetUID": 5825,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5825,
+                    "targetPin": "In",
+                    "targetUID": 5814,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5814,
+                    "targetPin": "In",
+                    "targetUID": 5847,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5825,
+                    "targetPin": "In",
+                    "targetUID": 5847,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        },
+                        {
+                            "leftVar": "Velocity",
+                            "op": 0,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5847,
+                    "targetPin": "In",
+                    "targetUID": 5814,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Velocity",
+                            "op": 2,
+                            "rightVar": [
+                                205,
+                                204,
+                                204,
+                                61
+                            ]
+                        },
+                        {
+                            "leftVar": "IsDashing",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5847,
+                    "targetPin": "In",
+                    "targetUID": 5825,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Teleporting",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5803,
+                    "targetPin": "In",
+                    "targetUID": 5836,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5836,
+                    "targetPin": "In",
+                    "targetUID": 5814,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "Teleporting",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5792,
+                    "targetPin": "In",
+                    "targetUID": 5803,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Holding",
+            "nodes": [
+                {
+                    "UID": 5792,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "transToSelf": false,
+                    "x": -16.0,
+                    "y": 58.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5803,
+                    "animation": "player2_portalEnterHold_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -16.0,
+                    "y": 154.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5814,
+                    "animation": "player2_idleHold_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": 192.0,
+                    "y": 250.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5825,
+                    "animation": "player2_runHold_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 192.0,
+                    "y": 138.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5836,
+                    "animation": "player2_portalExitHold_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -16.0,
+                    "y": 250.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5847,
+                    "animation": "player2_dashHold_anim",
+                    "events": [
+                        {
+                            "bone": "",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "DashVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 416.0,
+                    "y": 186.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "player2_sk",
+    "variables": [
+        {
+            "name": "Teleporting",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "Velocity",
+            "type": "float",
+            "value": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "IsDead",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "PlaceItem",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "IsDashing",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "Chopping",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "Throwing",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        }
+    ]
+}

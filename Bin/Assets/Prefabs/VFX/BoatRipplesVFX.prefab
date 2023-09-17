@@ -1,0 +1,43 @@
+{
+    "Data": {
+        "Name": "BoatRipplesVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -7.717628955841064,
+                98.82787322998048,
+                -2.1410105228424072
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                50.0,
+                1.0,
+                50.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "BoatWavePlane",
+                "Materials": [
+                    "BoatWaterLinesMaterial"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0,
+                "Layer": 5
+            }
+        ]
+    }
+}

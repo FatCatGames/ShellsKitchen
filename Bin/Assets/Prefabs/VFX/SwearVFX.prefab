@@ -1,0 +1,39 @@
+{
+    "Data": {
+        "Name": "SwearVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                12.586851119995115,
+                1.5043628215789795,
+                -1.1047890186309814
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "SwearVFX"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 2.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "Data": {
+        "Name": "Order",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                3.306727170944214,
+                2.7929675579071045,
+                -6.21394157409668
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Background",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            241.10000610351565,
+                            257.29998779296875,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Recipe04",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UIOrderPS",
+                            "Layer": 1,
+                            "Instance Shader": true,
+                            "Color": {
+                                "r": 1.0,
+                                "g": 1.0,
+                                "b": 1.0,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Name": "Bar",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.14000000059604645,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            164.5,
+                            30.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "U I Sprite",
+                            "Version": 3,
+                            "Texture": "Square-Default",
+                            "VertexShader": "UISpriteVS",
+                            "PixelShader": "UIProgressBarPS",
+                            "Layer": 0,
+                            "Instance Shader": true,
+                            "Color": {
+                                "r": 0.09871204942464828,
+                                "g": 0.7745097875595093,
+                                "b": 0.09871204942464828,
+                                "a": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Order U I"
+            }
+        ]
+    }
+}

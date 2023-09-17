@@ -1,0 +1,164 @@
+{
+    "Data": {
+        "Name": "Player1",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.3847782611846924,
+                9.64975643157959,
+                0.5644440650939941
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "FootStepVFX",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.25,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            100.0,
+                            100.0,
+                            100.0
+                        ],
+                        "Children": []
+                    },
+                    "Prefab": "FootStepVFX"
+                },
+                {
+                    "Name": "Hat",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": 5,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Model Instance",
+                            "Version": 6,
+                            "Model": "Empty ",
+                            "Materials": [],
+                            "UsedForNav": false,
+                            "Renderer": 0,
+                            "Material Instance": false,
+                            "CastShadows": true,
+                            "InstanceCount": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "player1_sk",
+                "Materials": [
+                    "Player_skin1_mat",
+                    "knife_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": true,
+                "Mass": 1.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": true,
+                "Lock Rotation Y": true,
+                "Lock Rotation Z": true,
+                "Dampening": 0.0
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": false,
+                "Controller": "Player1Animation"
+            },
+            {
+                "ComponentType": "Audio Mono Component",
+                "Active": false,
+                "AmountOfSounds": 4,
+                "Effects": [
+                    "event:/Player/Dash",
+                    "event:/Player/Drop Item",
+                    "event:/Player/Pickup Item",
+                    "event:/Player/Knife Chop"
+                ]
+            },
+            {
+                "ComponentType": "Capsule Collider",
+                "Radius": 0.30000001192092896,
+                "Height": 0.5,
+                "Version": 2,
+                "Layer": 1,
+                "Trigger": false,
+                "WaitForRB": true
+            },
+            {
+                "ComponentType": "Player",
+                "Version": 4,
+                "Speed": 300.0,
+                "DashSpeed": 1400.0,
+                "DashDuration": 0.33000001311302185,
+                "DashCooldown": 0.5,
+                "ThrowingStrength": 19.0,
+                "ControllerDeadlock": 0.0,
+                "RotationSpeed": 600.0,
+                "BounceStrength": 600.0,
+                "BounceDuration": 0.20000000298023224,
+                "ThrowingArc": 0.10000000149011612,
+                "HeldOffsetX": 0.0,
+                "HeldOffsetY": 0.6000000238418579,
+                "HeldOffsetZ": 0.6000000238418579
+            }
+        ]
+    }
+}

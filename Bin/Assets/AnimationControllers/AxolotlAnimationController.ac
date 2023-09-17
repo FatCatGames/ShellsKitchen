@@ -1,0 +1,433 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "WrongOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5044,
+                    "targetPin": "In",
+                    "targetUID": 5011,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "RightOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5044,
+                    "targetPin": "In",
+                    "targetUID": 5022,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5011,
+                    "targetPin": "In",
+                    "targetUID": 5000,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5022,
+                    "targetPin": "In",
+                    "targetUID": 5000,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5000,
+                    "targetPin": "In",
+                    "targetUID": 5033,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5022,
+                    "targetPin": "In",
+                    "targetUID": 5033,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5011,
+                    "targetPin": "In",
+                    "targetUID": 5033,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5000,
+                    "targetPin": "In",
+                    "targetUID": 5055,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 5033,
+                    "targetPin": "In",
+                    "targetUID": 5055,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5055,
+                    "targetPin": "In",
+                    "targetUID": 5033,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 5055,
+                    "targetPin": "In",
+                    "targetUID": 5000,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 5000,
+                    "animation": "axolotl_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": -160.0,
+                    "y": -102.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5011,
+                    "animation": "axolotl_wrongOrder_anim",
+                    "events": [
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 16,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 20,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 24,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 17,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": -3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 21,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": -3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": true,
+                            "frame": 25,
+                            "prefabName": "WaterSplashVFX_axol",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": -3.0,
+                            "y": -0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "frame": 0,
+                            "sfxIndex": 1,
+                            "type": 1
+                        },
+                        {
+                            "bone": "",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "SwearVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 7.0,
+                            "z": 2.0
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -32.0,
+                    "y": -229.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5022,
+                    "animation": "axolotl_eat_anim",
+                    "events": [
+                        {
+                            "frame": 0,
+                            "sfxIndex": 0,
+                            "type": 1
+                        },
+                        {
+                            "bone": "axelotl_rig:Head_jnt",
+                            "boneRot": false,
+                            "frame": 0,
+                            "prefabName": "HappyHeartzVFX",
+                            "rX": 0.0,
+                            "rY": 0.0,
+                            "rZ": 0.0,
+                            "type": 0,
+                            "worldSpace": false,
+                            "x": 0.0,
+                            "y": 20.0,
+                            "z": -0.5
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -352.0,
+                    "y": -213.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5033,
+                    "animation": "axolotl_impatient_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5044,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "transToSelf": false,
+                    "x": -176.0,
+                    "y": 74.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 5055,
+                    "animation": "axolotl_hit_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -336.0,
+                    "y": -5.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "axolotl_sk",
+    "variables": [
+        {
+            "name": "WrongOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "IngredientHit",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "RightOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "LongTime",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        }
+    ]
+}

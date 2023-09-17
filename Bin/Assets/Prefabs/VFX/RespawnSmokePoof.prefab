@@ -1,0 +1,39 @@
+{
+    "Data": {
+        "Name": "RespawnSmokePuff",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -0.21158304810523987,
+                0.8037811517715454,
+                1.0243669748306274
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "SmokePoof"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 1.0
+            }
+        ]
+    }
+}

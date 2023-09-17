@@ -1,0 +1,54 @@
+{
+    "Data": {
+        "Name": "Sixth_Level_cutscene",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                1.9515206813812256,
+                -1.4360475540161133,
+                -2.577850341796875
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1920.0,
+                1081.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "U I Sprite",
+                "Version": 3,
+                "Texture": "Square-Default",
+                "VertexShader": "UISpriteVS",
+                "PixelShader": "VideoPS",
+                "Layer": 20,
+                "Instance Shader": false,
+                "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                }
+            },
+            {
+                "ComponentType": "Video Player",
+                "Loop": false,
+                "Skip": true,
+                "VideoName": "Cutscene3.mp4",
+                "Abort": -430.0295104980469,
+                "AudioDelay": 0.0,
+                "AudioDelay": 0.0,
+                "AudioName": "event:/Music/Cutscene3"
+            }
+        ]
+    }
+}

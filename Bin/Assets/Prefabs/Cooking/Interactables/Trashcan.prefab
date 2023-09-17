@@ -1,0 +1,178 @@
+{
+    "Data": {
+        "Name": "Trashcan",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -2.942974328994751,
+                -1.4137544631958008,
+                -1.9454238414764404
+            ],
+            "Rot": [
+                0.0,
+                -90.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "ColliderForIcon",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rot": [
+                            0.0,
+                            -90.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": [
+                            {
+                                "Name": "Sprite",
+                                "Active": true,
+                                "Opened": true,
+                                "Transform": {
+                                    "Version": 2,
+                                    "BoneParentID": -1,
+                                    "Pos": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Rot": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Size": [
+                                        50.0,
+                                        50.0,
+                                        50.0
+                                    ],
+                                    "Children": []
+                                },
+                                "Components": [
+                                    {
+                                        "ComponentType": "U I Sprite",
+                                        "Version": 3,
+                                        "Texture": "Icon_Recycle",
+                                        "VertexShader": "UISpriteVS",
+                                        "PixelShader": "UISpritePS",
+                                        "Layer": 0,
+                                        "Instance Shader": false,
+                                        "Color": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Box Collider",
+                            "Version": 3,
+                            "Layer": 0,
+                            "Trigger": true,
+                            "Size": [
+                                2.0,
+                                1.0,
+                                2.0
+                            ],
+                            "Offset": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "WaitForRB": false,
+                            "Material Index": 0
+                        },
+                        {
+                            "ComponentType": "Ingredient Icon",
+                            "myDeactivateInAwake": true
+                        },
+                        {
+                            "ComponentType": "Trashcan Icon"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "newestTest",
+                "Materials": [
+                    "trashCan_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 0
+            },
+            {
+                "ComponentType": "Trashcan"
+            },
+            {
+                "ComponentType": "Vertex Animator",
+                "Version": 1,
+                "VATS": [
+                    {
+                        "ID": 0,
+                        "Name": "Undefined",
+                        "TextureName": "trashcan_idle_anim",
+                        "ShouldLoop": false
+                    },
+                    {
+                        "ID": 1,
+                        "Name": "Undefined",
+                        "TextureName": "trashcan_eat_anim",
+                        "ShouldLoop": false
+                    }
+                ]
+            }
+        ]
+    }
+}

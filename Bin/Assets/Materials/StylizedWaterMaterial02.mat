@@ -1,0 +1,49 @@
+{
+    "Version": 8,
+    "Emissive": 0.0,
+    "Color": {
+        "r": 0.37647056579589844,
+        "g": 1.0,
+        "b": 0.6552248001098633,
+        "a": 1.0
+    },
+    "Albedo": "StylizedWater__C",
+    "PBR": "StylizedWater__M",
+    "Normal": "StylizedWater__N",
+    "InstancePS": true,
+    "PixelShader": {
+        "Name": "WaterStylizedPS",
+        "Red": 0.0,
+        "Green": 0.0,
+        "Blue": 0.0,
+        "Alpha": 0.03999999910593033,
+        "Darkness": 0.5299999713897705
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "WaterDisplacementVS",
+        "WaveHeight": 0.0,
+        "WaveSpeed": 0.0,
+        "WaveScale": 0.0,
+        "WaveAngle": 0.0
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 1.0399999618530273,
+    "c2": 1.5299999713897705,
+    "c3": 1.0,
+    "c4": 0.27000001072883606,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 1,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

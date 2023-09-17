@@ -1,0 +1,76 @@
+{
+    "Data": {
+        "Name": "LevelSelectWaterPlane",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                9.89642333984375,
+                0.182159423828125,
+                -6.390562534332275
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                325.7356872558594,
+                325.7356872558594,
+                325.7356872558594
+            ],
+            "Children": [
+                {
+                    "Name": "WaveParticles",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.00984121486544609,
+                            0.001050613820552826,
+                            0.011152027174830437
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.001623182324692607,
+                            0.001623182324692607,
+                            0.001623182324692607
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Particle System",
+                            "Emitters": [
+                                "Waves"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "Plane",
+                "Materials": [
+                    "LevelselectWater_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

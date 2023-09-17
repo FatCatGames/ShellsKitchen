@@ -1,0 +1,40 @@
+{
+    "Version": 8,
+    "Emissive": 1.0,
+    "Color": {
+        "r": 0.36274510622024536,
+        "g": 0.5689163208007813,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "T_default_C",
+    "PBR": "",
+    "Normal": "",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "LevelselectWaterPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 0.07000000029802322,
+    "c2": 0.46000000834465027,
+    "c3": 1.100000023841858,
+    "c4": 0.10000000149011612,
+    "c5": 0.10000000149011612,
+    "c6": 0.12999999523162842,
+    "c7": 0.0,
+    "BlendState": 0,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

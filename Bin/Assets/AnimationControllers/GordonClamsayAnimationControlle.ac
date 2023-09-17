@@ -1,0 +1,315 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15498,
+                    "targetPin": "In",
+                    "targetUID": 15454,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15487,
+                    "targetPin": "In",
+                    "targetUID": 15465,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15498,
+                    "targetPin": "In",
+                    "targetUID": 15465,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 15454,
+                    "targetPin": "In",
+                    "targetUID": 15465,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15487,
+                    "targetPin": "In",
+                    "targetUID": 15454,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "WrongOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 15443,
+                    "targetPin": "In",
+                    "targetUID": 15498,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "RightOrder",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 15443,
+                    "targetPin": "In",
+                    "targetUID": 15487,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 15454,
+                    "targetPin": "In",
+                    "targetUID": 15476,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "IngredientHit",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": false,
+                    "sourcePin": "Out",
+                    "sourceUID": 15465,
+                    "targetPin": "In",
+                    "targetUID": 15476,
+                    "transTime": 0.20000000298023224
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                0
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15476,
+                    "targetPin": "In",
+                    "targetUID": 15454,
+                    "transTime": 0.0
+                },
+                {
+                    "conditions": [
+                        {
+                            "leftVar": "LongTime",
+                            "op": 1,
+                            "rightVar": [
+                                1
+                            ]
+                        }
+                    ],
+                    "hasExitTime": true,
+                    "sourcePin": "Out",
+                    "sourceUID": 15476,
+                    "targetPin": "In",
+                    "targetUID": 15465,
+                    "transTime": 0.0
+                }
+            ],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 15443,
+                    "animation": "",
+                    "events": [],
+                    "isAnyState": true,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "transToSelf": false,
+                    "x": 16.0,
+                    "y": -5.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 15454,
+                    "animation": "gordonclamsay_idle_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": -128.0,
+                    "y": 234.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 15465,
+                    "animation": "gordonclamsay_impatient_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": true,
+                    "pins": [],
+                    "x": 112.0,
+                    "y": 234.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 15476,
+                    "animation": "gordonclamsay_getHit_anim",
+                    "events": [
+                        {
+                            "frame": 0,
+                            "sfxIndex": 22,
+                            "type": 1
+                        }
+                    ],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 347.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 15487,
+                    "animation": "gordonclamsay_correctOrder_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": 128.0,
+                    "y": 123.0,
+                    "z": 0.0
+                },
+                {
+                    "UID": 15498,
+                    "animation": "gordonclamsay_wrongOrder_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": false,
+                    "loop": false,
+                    "pins": [],
+                    "x": -128.0,
+                    "y": 122.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "gordonclamsay_sk",
+    "variables": [
+        {
+            "name": "WrongOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "IngredientHit",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "RightOrder",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        },
+        {
+            "name": "LongTime",
+            "type": "bool",
+            "value": [
+                0
+            ]
+        }
+    ]
+}

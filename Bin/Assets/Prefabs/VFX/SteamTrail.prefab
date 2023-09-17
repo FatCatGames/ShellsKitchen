@@ -1,0 +1,35 @@
+{
+    "Data": {
+        "Name": "SteamTrail",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.5544105768203735,
+                2.926882266998291,
+                4.185143947601318
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "SteamTrail"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Data": {
+        "Name": "PortalSuckInSnurr",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                1.5664068460464478,
+                1.1083159446716309,
+                -2.944798707962036
+            ],
+            "Rot": [
+                179.9998321533203,
+                0.0,
+                179.9998321533203
+            ],
+            "Size": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.20000000298023224
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "PortalSuckInSnurrHalf",
+                "Materials": [
+                    "PortalSuckIn_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 1.0
+            }
+        ]
+    }
+}

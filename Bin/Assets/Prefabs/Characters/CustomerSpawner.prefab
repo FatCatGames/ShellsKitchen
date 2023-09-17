@@ -1,0 +1,59 @@
+{
+    "Data": {
+        "Name": "CustomerSpawner",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                2.663919687271118,
+                9.757356643676758,
+                -8.030842781066895
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Walking Customers",
+                "Paths": [
+                    {
+                        "Waypoints": [
+                            {
+                                "x": -5.5,
+                                "z": 4.0
+                            },
+                            {
+                                "x": 0.0,
+                                "z": 2.5
+                            },
+                            {
+                                "x": 5.5,
+                                "z": 1.5
+                            }
+                        ],
+                        "Color": {
+                            "r": 1.0,
+                            "g": 0.563725471496582,
+                            "b": 0.7690311670303345,
+                            "a": 1.0
+                        }
+                    }
+                ]
+            },
+            {
+                "ComponentType": "Lineup Customers"
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Version": 8,
+    "Emissive": 1.0,
+    "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "deliverytable_market_c_tex",
+    "PBR": "deliverytable_market_m_tex",
+    "Normal": "deliverytable_market_n_tex",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "DefaultPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 0.0,
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 0,
+    "RasterizerState": 0,
+    "Dynamic Friction": 0.0,
+    "Static Friction": 0.0,
+    "Restitution": 0.0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

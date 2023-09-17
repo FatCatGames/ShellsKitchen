@@ -1,0 +1,42 @@
+{
+    "Data": {
+        "Name": "FoamPlane",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                4.160351753234863,
+                -4.850375652313232,
+                3.4941911697387695
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                2.63700008392334,
+                2.6374659538269043,
+                2.6374659538269043
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "Plane",
+                "Materials": [
+                    "FoamLine_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 1,
+                "Material Instance": false,
+                "CastShadows": false,
+                "InstanceCount": 0
+            }
+        ]
+    }
+}

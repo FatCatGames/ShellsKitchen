@@ -1,0 +1,221 @@
+{
+    "Data": {
+        "Name": "Boat",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -53.0,
+                1.136399269104004,
+                -37.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": [
+                {
+                    "Name": "Forward",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.045957475900650024,
+                            0.07726246118545532,
+                            0.5241044163703918
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            0.6000000238418579,
+                            0.6000000238418579,
+                            0.19354839622974396
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Model Instance",
+                            "Version": 6,
+                            "Model": "Cube",
+                            "Materials": [
+                                "Black"
+                            ],
+                            "UsedForNav": false,
+                            "Renderer": 0,
+                            "Material Instance": false,
+                            "CastShadows": true,
+                            "InstanceCount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "BoatSteamTrail",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.08708881586790085,
+                            2.862880229949951,
+                            -0.39605629444122314
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Prefab": "BoatSteamTrail"
+                },
+                {
+                    "Name": "FoamPlane",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            0.022857533767819405,
+                            -0.5592671036720276,
+                            -0.857456386089325
+                        ],
+                        "Rot": [
+                            -179.99887084960938,
+                            89.09993743896484,
+                            -179.99887084960938
+                        ],
+                        "Size": [
+                            14.859016418457031,
+                            2.6374659538269043,
+                            7.080751419067383
+                        ],
+                        "Children": []
+                    },
+                    "Components": [
+                        {
+                            "ComponentType": "Model Instance",
+                            "Version": 6,
+                            "Model": "Plane",
+                            "Materials": [
+                                "FoamLine_mat"
+                            ],
+                            "UsedForNav": false,
+                            "Renderer": 1,
+                            "Material Instance": false,
+                            "CastShadows": false,
+                            "InstanceCount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "BoatWave",
+                    "Active": true,
+                    "Opened": true,
+                    "Transform": {
+                        "Version": 2,
+                        "BoneParentID": -1,
+                        "Pos": [
+                            -0.11727619171142578,
+                            -0.8076295852661133,
+                            -0.2730417251586914
+                        ],
+                        "Rot": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Size": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Children": []
+                    },
+                    "Prefab": "BoatWavesVFX"
+                }
+            ]
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 6,
+                "Model": "boat_sk",
+                "Materials": [
+                    "boat_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 2,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    6.300000190734863,
+                    6.300000190734863,
+                    6.300000190734863
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": true,
+                "Mass": 100.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": true,
+                "Lock Rotation Y": true,
+                "Lock Rotation Z": true
+            },
+            {
+                "ComponentType": "Level Select Player"
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": true,
+                "Controller": "MainMenu_Player_Idle"
+            },
+            {
+                "ComponentType": "Audio Mono Component",
+                "Active": true,
+                "AmountOfSounds": 1,
+                "Effects": [
+                    "event:/SFX/Boat"
+                ]
+            }
+        ]
+    }
+}

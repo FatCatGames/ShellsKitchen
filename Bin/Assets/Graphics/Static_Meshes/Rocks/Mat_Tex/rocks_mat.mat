@@ -1,0 +1,40 @@
+{
+    "Version": 8,
+    "Emissive": 1.0,
+    "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "rocks_c_tex",
+    "PBR": "rocks_m_tex",
+    "Normal": "rocks_n_tex",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "UnderWaterPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "UnderWaterVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": true,
+    "c1": 0.20000000298023224,
+    "c2": 1.25,
+    "c3": 6.880000114440918,
+    "c4": 0.2199999988079071,
+    "c5": 0.38999998569488525,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 0,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

@@ -1,0 +1,40 @@
+{
+    "Data": {
+        "Name": "LevelSelectVFX",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -102.91477966308594,
+                17.470550537109375,
+                -9.181440353393556
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "LevelSelectStars",
+                    "LevelSelectPuff"
+                ]
+            },
+            {
+                "ComponentType": "Self Destroy",
+                "Time": 3.0
+            }
+        ]
+    }
+}

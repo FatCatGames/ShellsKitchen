@@ -1,0 +1,35 @@
+{
+    "Data": {
+        "Name": "SpecsofDust",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.7785276174545288,
+                -0.8222141265869141,
+                0.0
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "SpecsofDust"
+                ]
+            }
+        ]
+    }
+}

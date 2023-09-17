@@ -1,0 +1,66 @@
+{
+    "Data": {
+        "Name": "ShrimpIngredientBox",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                0.2239384651184082,
+                7.708605766296387,
+                9.913925170898438
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "IngredientBox_Shrimp_mesh",
+                "Materials": [
+                    "Shrimp_mat",
+                    "ingredientbox_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 1
+            },
+            {
+                "ComponentType": "Ingredient Container",
+                "Type": 1
+            }
+        ]
+    }
+}

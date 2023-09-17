@@ -1,0 +1,35 @@
+{
+    "Data": {
+        "Name": "LevelPlayerRings",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -53.40790557861328,
+                0.6827900409698486,
+                -37.02467346191406
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Particle System",
+                "Emitters": [
+                    "LevelPlayerFoamRings"
+                ]
+            }
+        ]
+    }
+}

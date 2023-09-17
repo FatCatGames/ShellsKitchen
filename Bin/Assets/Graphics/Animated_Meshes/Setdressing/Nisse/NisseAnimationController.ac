@@ -1,0 +1,31 @@
+{
+    "layers": [
+        {
+            "active": true,
+            "boneMask": [
+                {
+                    "id": 0,
+                    "val": true
+                }
+            ],
+            "edges": [],
+            "name": "Default",
+            "nodes": [
+                {
+                    "UID": 6535,
+                    "animation": "nisse_buoy_anim",
+                    "events": [],
+                    "isAnyState": false,
+                    "isEntry": true,
+                    "loop": true,
+                    "pins": [],
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            ]
+        }
+    ],
+    "sk": "nisse_sk",
+    "variables": []
+}

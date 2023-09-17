@@ -1,0 +1,40 @@
+{
+    "Version": 8,
+    "Emissive": 6.449999809265137,
+    "Color": {
+        "r": 0.36764705181121826,
+        "g": 1.0,
+        "b": 0.9814012050628662,
+        "a": 1.0
+    },
+    "Albedo": "StylizedWaterBoatlines__C",
+    "PBR": "StylizedWaterBoatlines__M",
+    "Normal": "StylizedWater__N",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "BoatWavesPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "DefaultVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": false,
+    "IsTriPlanar": false,
+    "c1": 1.5,
+    "c2": 0.009999999776482582,
+    "c3": 1.7799999713897705,
+    "c4": 0.02500000037252903,
+    "c5": 0.0,
+    "c6": 0.0,
+    "c7": 0.0,
+    "BlendState": 1,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

@@ -1,0 +1,40 @@
+{
+    "Version": 8,
+    "Emissive": 1.0,
+    "Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "Albedo": "sanddunes_c_tex",
+    "PBR": "sanddunes_m_tex",
+    "Normal": "sanddunes_n_tex",
+    "InstancePS": false,
+    "PixelShader": {
+        "Name": "UnderWaterPS"
+    },
+    "InstanceVS": false,
+    "VertexShader": {
+        "Name": "UnderWaterVS"
+    },
+    "InstanceGS": false,
+    "GeometryShader": {
+        "Name": ""
+    },
+    "TilingMultiplier": 1,
+    "IsTiling": true,
+    "IsTriPlanar": false,
+    "c1": 3.1600000858306885,
+    "c2": 1.0,
+    "c3": 1.0,
+    "c4": 20.6299991607666,
+    "c5": 21.399999618530273,
+    "c6": 4.5,
+    "c7": 4.96999979019165,
+    "BlendState": 0,
+    "RasterizerState": 0,
+    "Custom Texture Count": 0,
+    "Texture Ids": [],
+    "Texture Names": []
+}

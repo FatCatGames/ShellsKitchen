@@ -1,0 +1,83 @@
+{
+    "Data": {
+        "Name": "LineupCustomer",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                8.129453659057617,
+                12.530454635620115,
+                -4.695044994354248
+            ],
+            "Rot": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "customer_sk",
+                "Materials": [
+                    "customer_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": false,
+                "Controller": "CustomerAnimationController"
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 0
+            },
+            {
+                "ComponentType": "Rigid Body",
+                "Use Gravity": false,
+                "Mass": 1.0,
+                "Lock Translation X": false,
+                "Lock Translation Y": false,
+                "Lock Translation Z": false,
+                "Lock Rotation X": false,
+                "Lock Rotation Y": false,
+                "Lock Rotation Z": false,
+                "Dampening": 0.0
+            },
+            {
+                "ComponentType": "Lineup Customer"
+            }
+        ]
+    }
+}

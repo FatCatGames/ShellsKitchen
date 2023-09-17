@@ -1,0 +1,48 @@
+{
+    "Data": {
+        "Name": "docks4x6_mesh",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -49.926265716552734,
+                -1.1083335876464844,
+                -29.924022674560547
+            ],
+            "Rot": [
+                0.0,
+                -53.51673126220703,
+                0.0
+            ],
+            "Size": [
+                1.7999999523162842,
+                1.7999999523162842,
+                1.7999999523162842
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "docks4x6_mesh",
+                "Materials": [
+                    "Docks_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Mesh Collider",
+                "Version": 1,
+                "Collider Model": ""
+            }
+        ]
+    }
+}

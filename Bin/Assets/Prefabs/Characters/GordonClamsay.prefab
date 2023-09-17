@@ -1,0 +1,72 @@
+{
+    "Data": {
+        "Name": "gordonclamsay_sk",
+        "Active": true,
+        "Opened": true,
+        "Transform": {
+            "Version": 2,
+            "BoneParentID": -1,
+            "Pos": [
+                -4.723426342010498,
+                2.400104790467595e-7,
+                -2.1395368576049805
+            ],
+            "Rot": [
+                -179.99986267089844,
+                77.01146697998047,
+                -179.99986267089844
+            ],
+            "Size": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "Children": []
+        },
+        "Components": [
+            {
+                "ComponentType": "Model Instance",
+                "Version": 7,
+                "Model": "gordonclamsay_sk",
+                "Materials": [
+                    "Gordon_Clamsay_mat",
+                    "knife_mat"
+                ],
+                "UsedForNav": false,
+                "Renderer": 0,
+                "Material Instance": false,
+                "CastShadows": true,
+                "InstanceCount": 0,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "Animator",
+                "Version": 2,
+                "AnimationIndex": 0,
+                "DistTickrate": true,
+                "Controller": "GordonClamsayAnimationControlle"
+            },
+            {
+                "ComponentType": "Shark"
+            },
+            {
+                "ComponentType": "Box Collider",
+                "Version": 3,
+                "Layer": 0,
+                "Trigger": false,
+                "Size": [
+                    1.4199999570846558,
+                    1.809999942779541,
+                    1.830000042915344
+                ],
+                "Offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "WaitForRB": false,
+                "Material Index": 0
+            }
+        ]
+    }
+}
