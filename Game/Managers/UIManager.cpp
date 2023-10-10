@@ -1268,12 +1268,7 @@ void UIManager::UpdateP2XboxController()
 			{
 				GetInteractableUIObjectComponent()->ToggleP2ControlsFadeOut(true);
 			}
-			myP2MenuIndex++;
-			if (myP2MenuIndex > 5)
-			{
-				myP2MenuIndex = 0;
-			}
-			myAudioManager->PlaySoundEffectByFullPath(std::string(AUDIO_BUTTON_NAVIGATE));
+			ChangeP2MenuIndex(1);
 		}
 		else if (myP2XboxUp == true && myP2IsInMainMenu && !myPlayer2Data->GetIsReady())
 		{
@@ -1293,18 +1288,12 @@ void UIManager::UpdateP2XboxController()
 		if (myP2XboxDown == true && myP2IsInCustomize)
 		{
 			resetP2XboxInput();
-			myP2CustomizeMenuIndex++;
-			if (myP2CustomizeMenuIndex > myP2CustomizeMenuButtons.size() - 1)
-			{
-				myP2CustomizeMenuIndex = 0;
-			}
-			myAudioManager->PlaySoundEffectByFullPath(std::string(AUDIO_BUTTON_NAVIGATE));
+			ChangeP2CustomizeMenuIndex(1);
 		}
 		else if (myP2XboxUp == true && myP2IsInCustomize)
 		{
 			resetP2XboxInput();
 			ChangeP2CustomizeMenuIndex(-1);
-			myAudioManager->PlaySoundEffectByFullPath(std::string(AUDIO_BUTTON_NAVIGATE));
 		}
 		if (myP2XboxRight == true && myP2IsInCustomize)
 		{
@@ -1348,12 +1337,7 @@ void UIManager::UpdateP2XboxController()
 		if (myP2XboxDown == true && myP2IsInSettings)
 		{
 			resetP2XboxInput();
-			mySettingsMenuIndex++;
-			if (mySettingsMenuIndex > mySettingsButtons.size() - 1)
-			{
-				mySettingsMenuIndex = 0;
-			}
-			myAudioManager->PlaySoundEffectByFullPath(std::string(AUDIO_BUTTON_NAVIGATE));
+			ChangeSettingsIndex(1);
 		}
 		else if (myP2XboxUp == true && myP2IsInSettings)
 		{

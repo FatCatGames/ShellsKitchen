@@ -478,21 +478,21 @@ void Project::Update()
 {
 	if (PLAYMODE)
 	{
-		//PerformanceManager::BeginTimer("Project", "Whole Frame");
+		PerformanceManager::BeginTimer("Project", "Whole Frame");
 
-		//PerformanceManager::BeginTimer("Game Manager", "Project");
+		PerformanceManager::BeginTimer("Game Manager", "Project");
 		gameManager->Update();
-		//PerformanceManager::StopTimer("Game Manager");
+		PerformanceManager::StopTimer("Game Manager");
 
-		//PerformanceManager::BeginTimer("UI Manager", "Project");
+		PerformanceManager::BeginTimer("UI Manager", "Project");
 		uiManager->Update();
-		//PerformanceManager::StopTimer("UI Manager");
+		PerformanceManager::StopTimer("UI Manager");
 
-		//PerformanceManager::BeginTimer("Level Select Manager", "Project");
+		PerformanceManager::BeginTimer("Level Select Manager", "Project");
 		levelSelectManager->Update();
-		//PerformanceManager::StopTimer("Level Select Manager");
+		PerformanceManager::StopTimer("Level Select Manager");
 	
-		//PerformanceManager::StopTimer("Project");
+		PerformanceManager::StopTimer("Project");
 	}
 }
 

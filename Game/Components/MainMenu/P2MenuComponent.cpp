@@ -23,8 +23,6 @@ void P2MenuComponent::Awake()
 		button->GetGameObject()->SetActive(false);
 		button->GetGameObject()->GetComponent<UISprite>()->SetAlpha(0);
 	}
-
-	UpdateSelectedButtons();
 }
 
 void P2MenuComponent::Update()

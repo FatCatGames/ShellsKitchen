@@ -7,7 +7,7 @@
         "b": 1.0,
         "a": 1.0
     },
-    "Albedo": "BirdParticle",
+    "Albedo": "WaveParticle2",
     "PBR": "",
     "Normal": "",
     "InstancePS": false,

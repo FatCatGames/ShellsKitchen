@@ -990,6 +990,7 @@ void Player::SlowRotate(RigidBody* aRigidBody, Vector3f& aDirection)
 	Vector2f normalVector = { -aDirection.z, aDirection.x };
 
 	forward.Normalize();
+
 	float dot = direction.Dot(forward);
 	if (dot > 1.0f) dot = 1.0f;
 	if (dot < -1.0f) dot = -1.0f;

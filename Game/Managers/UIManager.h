@@ -88,10 +88,10 @@ public:
 	bool GetP1IsInSettings() { return myP1IsInSettings; }
 	bool GetP2IsInSettings() { return myP2IsInSettings; }
 	bool GetIsInPauseMenu() { return myIsInPauseMenu; }
-	bool GetP1IsInControls() {return myP1IsInControls; }
-	bool GetP2IsInControls() {return myP2IsInControls; }
-	bool GetP1IsInCredits() {return myP1IsInCredits; }
-	bool GetP2IsInCredits() {return myP2IsInCredits; }
+	bool GetP1IsInControls() { return myP1IsInControls; }
+	bool GetP2IsInControls() { return myP2IsInControls; }
+	bool GetP1IsInCredits() { return myP1IsInCredits; }
+	bool GetP2IsInCredits() { return myP2IsInCredits; }
 	void P1CustomizeInput();
 	void P2CustomizeInput();
 	void P1SettingsInput();
@@ -128,7 +128,7 @@ private:
 	int myP1CustomizeMenuIndex = 0;
 	int myP2CustomizeMenuIndex = 0;
 	int mySettingsMenuIndex = 0;
-	
+
 	int myPauseMenuIndex = 0;
 	bool myIsInPauseMenu = false;
 

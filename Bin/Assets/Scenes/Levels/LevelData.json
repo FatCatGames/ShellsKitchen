@@ -2,123 +2,130 @@
     "Version": 3,
     "Levels": [
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
                 0,
-                1,
-                2
+                1
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
                 0,
-                1,
-                2
+                3,
+                4
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
-                0,
-                1,
-                2
+                4,
+                7
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
                 0,
-                1,
-                2
+                4,
+                9
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
                 0,
-                1,
-                2
+                3,
+                6
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
-                0,
-                1,
-                2
+                2,
+                4,
+                5
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
-                0,
-                1,
-                2
+                4,
+                5,
+                11
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
-                0,
                 1,
-                2
+                5,
+                12
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 80,
+            "SilverRequirement": 200,
+            "GoldRequirement": 320,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 180.0,
             "AllowedRecipes": [
-                0,
-                1,
-                2
+                4,
+                9,
+                10
             ]
         },
         {
-            "BronzeRequirement": 0,
-            "SilverRequirement": 0,
-            "GoldRequirement": 0,
+            "BronzeRequirement": 500,
+            "SilverRequirement": 950,
+            "GoldRequirement": 1200,
             "Highscore": 0,
-            "LevelDuration": 120.0,
+            "LevelDuration": 300.0,
             "AllowedRecipes": [
                 0,
                 1,
-                2
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
             ]
         }
     ]

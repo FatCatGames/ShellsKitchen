@@ -24,8 +24,6 @@ void SettingsMenuComponent::Awake()
 			}
 		}
 	}
-
-	UpdateSelectedButtons();
 }
 
 void SettingsMenuComponent::Update()
